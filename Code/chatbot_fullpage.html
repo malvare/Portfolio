@@ -1,0 +1,81 @@
+<html>
+<head>
+    <!-- Font Dependencies -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons" rel="stylesheet"
+          type="text/css">
+
+    <!-- Vuetify CSS Dependencies -->
+    <link href="https://unpkg.com/vuetify@0.16.9/dist/vuetify.min.css" rel="stylesheet" type="text/css">
+
+    <!-- LexWebUi CSS from dist directory -->
+    <link href="css/lex-web-ui.css" rel="stylesheet" type="text/css">
+    <!-- page specific LexWebUi styling -->
+    <style type="text/css">
+        #lex-web-ui-app {
+            display: flex;
+            height: 100%;
+            width: 100%;
+        }
+
+        body, html {
+            overflow-y: auto;
+            overflow-x: hidden;
+        }
+
+        .toolbar__content {
+            background-color: #149091
+        }
+    </style>
+</head>
+<body>
+<!-- application will be dynamically mounted here -->
+<div id="lex-web-ui"></div>
+
+<!--
+  Vue, Vuex, Vuetifiy and AWS SDK dependencies must be loaded before lex-web-ui.js.
+  Loading from third party CDN for quick testing
+-->
+<script src="https://unpkg.com/vue@2.5.3"></script>
+<script src="https://unpkg.com/vuex@3.0.1"></script>
+<script src="https://unpkg.com/vuetify@0.16.9"></script>
+<script src="https://sdk.amazonaws.com/js/aws-sdk-2.149.0.min.js"></script>
+
+<!-- LexWebUi Library from dist directory -->
+<script src="js/lex-web-ui.js"></script>
+
+<!-- instantiate the web ui with a basic config -->
+<script>
+    // LexWebUi supports numerous configuration options. Here
+    // is an example using just a couple of the required options.
+    var config = {
+        cognito: {
+            // Your Cognito Pool Id - this is required to provide AWS credentials
+            poolId: 'us-east-1:2706ae07-ebf6-4622-ac23-50968c787a60'
+        },
+        lex: {
+            // Lex Bot Name in your account
+            botName: 'BotFolio',
+            initialText: "Hey there! I am Malvi's BotFolio. Welcome to Malvi's portfolio website! You can ask me about her projects or about her in general"
+        },
+        ui: {
+            toolbarTitle: "BotFolio"
+        }
+
+    };
+    // load the LexWebUi component
+    var lexWebUi = new LexWebUi.Loader(config);
+    // instantiate Vue
+    new Vue({
+        el: '#lex-web-ui',
+        store: lexWebUi.store,
+        template: '<div id="lex-web-ui-app"><lex-web-ui/></div>',
+    });
+</script>
+<script type="text/javascript">
+    var toolbar = document.getElementsByClassName("toolbar__title")[0]
+    toolbar.onclick = function () {
+        location.href = "index.html";
+    };
+</script>
+</body>
+</html>
