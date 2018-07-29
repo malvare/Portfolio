@@ -151,8 +151,8 @@ ul.menu-fullscreen li > a:hover {
 #full {
     width: 1140px;
     position: relative;
-    top: 0;
-    margin: 0 auto;
+    top: 20px;
+    left: 30px;
     z-index: 9997;
 }
 
@@ -368,23 +368,47 @@ CONTENT
 }
 
 .one-column {
-    width: 40%;
+    width: 30%;
     position: relative;
     float: left;
 }
 
 .two-column {
-    width: 60%;
+    width: 40%;
+    margin-top: 30px;
     position: relative;
-    float: left;
+    float: right;
+}
+
+.layer{
+   position: absolute;
+   left: 0px;
+   top: 0px;
+   width: 400px;
+   height: 352px;
+   opacity: 0.6;
+   background-color: #292882;
+}
+
+.layer1{
+   position: absolute;
+   left: 0px;
+   top: 369px;
+   width: 400px;
+   height: 352px;
+   opacity: 0.5;
+   background-color: #009092;
 }
 
 .one-column p {
-    width: 70% !important;
+    width: 100% !important;
+    text-align: justify;
 }
 
 .two-column p {
     width: 100% !important;
+    text-align: justify;
+
 }
 
 .clear {
@@ -393,17 +417,18 @@ CONTENT
 
 .content {
     position: relative;
-    width: 1140px;
+    width: 2000px;
     margin: 50px auto;
 }
 
 .content .text-intro {
-    width: 1140px;
-    margin-top: 150px;
-    margin: 150px auto 0;
+    width: 2000px;
+    margin-top: 100px;
+    margin: 100px auto 0;
 }
 
 .content .text-intro h1 {
+    margin-left: 360px;
     font-size: 43px;
     width: 40%;
     text-transform: uppercase;
@@ -415,6 +440,7 @@ CONTENT
 
 .content .text-intro h2 {
     font-size: 60px;
+    margin-left: 360px;
     width: 40%;
     text-transform: uppercase;
     color: #292882;
@@ -424,8 +450,9 @@ CONTENT
 }
 
 .content .text-intro p {
-    font-size: 13px;
-    color: #8d8d8d;
+    margin-left: 60%;
+    font-size: 16px;
+    color: #81889B;
     margin-top: 30px;
     font-weight: 400;
     line-height: 22px;
@@ -976,7 +1003,7 @@ PORTFOLIO GRID
 .portfolio-grid {
     width: 1170px;
     position: relative;
-    margin: 30px auto;
+    margin-left: 340px;
     overflow: hidden;
 }
 
@@ -985,6 +1012,36 @@ PORTFOLIO GRID
     padding-right: 390px;
 
 }
+
+.text-block {
+    position: absolute;
+    font-size: 50px;
+    bottom: 230px;
+    right: 90px;
+    color: #009092;
+    padding-left: 20px;
+    padding-right: 20px;
+    }
+
+.text-block1 {
+    position: absolute;
+    font-size: 50px;
+    bottom: 230px;
+    right: 40px;
+    color: #009092;
+    padding-left: 20px;
+    padding-right: 20px;
+    }
+
+.text-block2 {
+    position: absolute;
+    font-size: 50px;
+    bottom: 230px;
+    right: 80px;
+    color: #009092;
+    padding-left: 20px;
+    padding-right: 20px;
+    }
 
 li.grid-item {
     width: 360px;
@@ -1009,11 +1066,17 @@ li.grid-item {
 }
 
 .grid-hover:hover {
-    opacity: 0.9;
+    opacity: 1;
+}
+
+.image{
+    margin-top: 30px;
+    width: 100px;
+    height: 100px;
 }
 
 .grid-hover h1 {
-    font-size: 23px;
+    font-size: 20px;
     bottom: 80px;
     left: 40px;
     position: absolute;
@@ -1025,18 +1088,22 @@ li.grid-item {
 }
 
 .grid-hover p {
-    font-size: 13px;
+    font-size: 16px;
     bottom: 40px;
     left: 40px;
     position: absolute;
-    color: #686868;
+    color: #000000;
     letter-spacing: 1px;
     font-weight: 400;
     line-height: 50px;
 }
 
 li.grid-item img {
+    margin-top: 30px;
     width: 360px;
+    height: 470px;
+    opacity: 0.9;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 /*
