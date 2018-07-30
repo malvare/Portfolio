@@ -612,7 +612,7 @@ HOME SIDEBAR
     position: absolute;
     width: 33.3333%;
     right: 0;
-    height: 140%;
+    height: 100%;
     background: #f4f4f4;
     z-index: 9;
     overflow: hidden;
@@ -1170,8 +1170,9 @@ footer {
     margin-top: 300px;
     height: 150px;
     overflow: hidden;
-    position: relative;
+    position: absolute;
     z-index: 10;
+    bottom: 0;
 }
 
 .footer-margin {
