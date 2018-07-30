@@ -81,6 +81,8 @@ PRELOADER
     animation: scaleout 1.0s infinite ease-in-out;
 }
 
+
+
 @-webkit-keyframes scaleout {
     0% {
         -webkit-transform: scale(0.0)
@@ -102,6 +104,51 @@ PRELOADER
         opacity: 0;
     }
 }
+
+.sk-wave {
+    margin: 40px auto;
+    width: 70px;
+    height: 60px;
+    text-align: center;
+    font-size: 10px; }
+.sk-wave .sk-rect {
+    background-color: #149091;
+    height: 100%;
+    width: 6px;
+    display: inline-block;
+    -webkit-animation: sk-waveStretchDelay 1.2s infinite ease-in-out;
+    animation: sk-waveStretchDelay 1.2s infinite ease-in-out; }
+.sk-wave .sk-rect1 {
+    -webkit-animation-delay: -1.2s;
+    animation-delay: -1.2s; }
+.sk-wave .sk-rect2 {
+    -webkit-animation-delay: -1.1s;
+    animation-delay: -1.1s; }
+.sk-wave .sk-rect3 {
+    -webkit-animation-delay: -1s;
+    animation-delay: -1s; }
+.sk-wave .sk-rect4 {
+    -webkit-animation-delay: -0.9s;
+    animation-delay: -0.9s; }
+.sk-wave .sk-rect5 {
+    -webkit-animation-delay: -0.8s;
+    animation-delay: -0.8s; }
+
+@-webkit-keyframes sk-waveStretchDelay {
+    0%, 40%, 100% {
+        -webkit-transform: scaleY(0.4);
+        transform: scaleY(0.4); }
+    20% {
+        -webkit-transform: scaleY(1);
+        transform: scaleY(1); } }
+
+@keyframes sk-waveStretchDelay {
+    0%, 40%, 100% {
+        -webkit-transform: scaleY(0.4);
+        transform: scaleY(0.4); }
+    20% {
+        -webkit-transform: scaleY(1);
+        transform: scaleY(1); } }
 
 /*
 **************************
@@ -226,8 +273,8 @@ ul.social-icon a:hover {
 
 .menu-index i {
     float: right;
-    font-size: 27px;
-    color: white;
+    font-size: 50px;
+    color: #149091;
     padding-right: 0px !important;
 }
 
@@ -428,7 +475,7 @@ CONTENT
 }
 
 .content .text-intro h1 {
-    margin-left: 360px;
+    margin-left: 15%;
     font-size: 43px;
     width: 40%;
     text-transform: uppercase;
@@ -440,7 +487,7 @@ CONTENT
 
 .content .text-intro h2 {
     font-size: 60px;
-    margin-left: 360px;
+    margin-left: 15%;
     width: 40%;
     text-transform: uppercase;
     color: #292882;
@@ -450,7 +497,7 @@ CONTENT
 }
 
 .content .text-intro p {
-    margin-left: 60%;
+    margin-left: 15%;
     font-size: 16px;
     color: #81889B;
     margin-top: 30px;
@@ -1003,7 +1050,7 @@ PORTFOLIO GRID
 .portfolio-grid {
     width: 1170px;
     position: relative;
-    margin-left: 340px;
+    margin-left: 15%;
     overflow: hidden;
 }
 
@@ -1017,7 +1064,7 @@ PORTFOLIO GRID
     position: absolute;
     font-size: 50px;
     bottom: 230px;
-    right: 90px;
+    right: 25%;
     color: #009092;
     padding-left: 20px;
     padding-right: 20px;
@@ -1027,7 +1074,7 @@ PORTFOLIO GRID
     position: absolute;
     font-size: 50px;
     bottom: 230px;
-    right: 40px;
+    right: 12%;
     color: #009092;
     padding-left: 20px;
     padding-right: 20px;
@@ -1037,7 +1084,7 @@ PORTFOLIO GRID
     position: absolute;
     font-size: 50px;
     bottom: 230px;
-    right: 80px;
+    right: 22%;
     color: #009092;
     padding-left: 20px;
     padding-right: 20px;
@@ -1100,8 +1147,8 @@ li.grid-item {
 
 li.grid-item img {
     margin-top: 30px;
-    width: 360px;
-    height: 470px;
+    width: 356px;
+    height: 368px;
     opacity: 0.9;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -1121,7 +1168,7 @@ footer {
     background: #f1f1f1;
     width: 100%;
     margin-top: 300px;
-    height: 200px;
+    height: 150px;
     overflow: hidden;
     position: relative;
     z-index: 10;
@@ -1130,7 +1177,7 @@ footer {
 .footer-margin {
     width: 1140px;
     margin: 30px auto;
-    line-height: 100px;
+    line-height: 65px;
 }
 
 #footer-left {
