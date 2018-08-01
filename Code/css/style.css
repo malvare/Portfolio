@@ -415,7 +415,9 @@ CONTENT
 }
 
 .one-column {
-    width: 30%;
+    margin-left: 9%;
+    line-height: 70px;
+    width: 40%;
     position: relative;
     float: left;
 }
@@ -504,7 +506,7 @@ CONTENT
     font-weight: 400;
     line-height: 22px;
     letter-spacing: 1px;
-    width: 40%;
+    width: 50%;
 }
 
 .typed-cursor {
@@ -1048,7 +1050,7 @@ PORTFOLIO GRID
 }
 
 .portfolio-grid {
-    width: 1170px;
+    width: 1700px;
     position: relative;
     margin-left: 15%;
     overflow: hidden;
@@ -1063,38 +1065,35 @@ PORTFOLIO GRID
 .text-block {
     position: absolute;
     font-size: 50px;
-    bottom: 230px;
-    right: 25%;
+    right: 24%;
+    bottom: 40%;
     color: #009092;
-    padding-left: 20px;
-    padding-right: 20px;
     }
 
 .text-block1 {
     position: absolute;
     font-size: 50px;
-    bottom: 230px;
-    right: 12%;
+    right: 10%;
+    bottom: 40%;
     color: #009092;
-    padding-left: 20px;
-    padding-right: 20px;
     }
 
 .text-block2 {
     position: absolute;
     font-size: 50px;
-    bottom: 230px;
     right: 22%;
+    bottom: 40%;
     color: #009092;
-    padding-left: 20px;
-    padding-right: 20px;
     }
+
+.grid-item{
+    margin-right: 7%;
+}
 
 li.grid-item {
     width: 360px;
     position: relative;
     float: left;
-    padding: 15px;
 }
 
 .grid-hover {
@@ -1114,12 +1113,6 @@ li.grid-item {
 
 .grid-hover:hover {
     opacity: 1;
-}
-
-.image{
-    margin-top: 30px;
-    width: 100px;
-    height: 100px;
 }
 
 .grid-hover h1 {
@@ -1172,7 +1165,7 @@ footer {
     overflow: hidden;
     position: absolute;
     z-index: 10;
-    bottom: 0;
+    margin-bottom: 10px;
 }
 
 .footer-margin {
@@ -1299,6 +1292,229 @@ textarea {
 textarea:focus {
     background: #f4f4f4;
     height: 250px;
+}
+
+/*
+**************************
+MY PROJECTS GRID
+**************************
+*/
+
+.secondary h3{
+  font-family: 'Monaco';
+  font-weight: 700;
+  margin-bottom: 20%;
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: 0.25px;
+}
+
+.secondary p{
+  font-family: 'Mocaco';
+  font-weight: 300;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 0.25px;
+}
+
+.wrapper{
+  padding: 30px 15px;
+}
+.row{
+  max-width: 1500px;
+  margin-left: 14%;
+}
+
+*,*:before,*:after{
+  box-sizing: border-box;
+}
+.cf:before,
+.cf:after{
+  display: table;
+  content: " ";
+}
+.cf:after{
+  clear: both
+}
+
+/*fancy card styling*/
+.cards{
+
+}
+.fancy-card{
+  background: #EDF1FD;
+  width: 100%;
+  display: block;
+  float: left;
+  position: relative;
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  transition: all 250ms ease-in;
+  min-height: 500px;
+  min-width: 300px;
+  background-size: cover;
+  background-position: center center;
+  margin-bottom: 30px;
+}
+.fancy-card.one img{
+    display: block;
+    margin: 0 auto;
+    margin-top: 15%;
+}
+.fancy-card.two{
+   background-image: url("https://docs.google.com/uc?id=0B7UPM0QugWUjbkR2Um9YZ2pnNzQ");
+}
+.fancy-card.three{
+   background-image: url("https://docs.google.com/uc?id=0B7UPM0QugWUjNVVVay1vYkRIV1E");
+}
+
+.fancy-card .bg-overlay{
+    background: rgba(0,0,0,0);
+    box-shadow: 0 4px 8px 0 rgba(232,232,232,100);
+    border: #F8F9FA;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    transition: all 200ms linear;
+}
+.fancy-card .content{
+  padding-top: 0px; 
+  padding-bottom: 40px;
+  color: #ffffff;
+  text-align: center;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  flex-direction: row;
+}
+.fancy-card .content .secondary{
+  position: absolute;
+  opacity: 0;
+  left: 0px;
+  transform: translate3d(0px, 30px, 1px);
+  transition: all 200ms linear 0ms;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+}
+
+
+/*horizontal border elements (top & bottom)*/
+.fancy-card .v-border{
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+}
+.fancy-card .v-border:before,
+.fancy-card .v-border:after{
+  width: 0%;
+  height: 1px;
+  left: 50%;
+  transition: all 250ms ease-out;
+  background: #fff;
+}
+.fancy-card .v-border:before{
+  content: '';
+  top: 10%;
+  position: absolute;
+}
+.fancy-card .v-border:after{
+  content: '';
+  bottom: 10%;
+  position: absolute;
+}
+
+/*horizontal elements (left & right)*/
+.fancy-card .h-border{
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+}
+.fancy-card .h-border:before,
+.fancy-card .h-border:after{
+  height: 0%;
+  top: 50%;
+  width: 1px;
+  transition: all 250ms ease-out;
+  background: #fff;
+}
+.fancy-card .h-border:before{
+  content: '';
+  left: 10%;
+  height: 0%;
+  position: absolute;
+}
+.fancy-card .h-border:after{
+  content: '';
+  right: 10%;
+  position: absolute;
+}
+
+
+/*hover states for interactivity*/
+.fancy-card:active .v-border:before,
+.fancy-card:active .v-border:after,
+.fancy-card:hover .v-border:before,
+.fancy-card:hover .v-border:after{
+  width: 90%;
+  left: 5%;
+}
+.fancy-card:active .h-border:before,
+.fancy-card:active .h-border:after,
+.fancy-card:hover .h-border:before,
+.fancy-card:hover .h-border:after{
+  height: 90%;
+  top: 5%;
+}
+
+/*hovering over card, shadow effect*/
+.fancy-card:active,
+.fancy-card:hover{
+  box-shadow: 10px 10px 0px 0px rgba(41, 40, 130, 0.3);
+}
+/*hovering over card, adjust primary element*/
+.fancy-card:active .content .primary,
+.fancy-card:hover .content .primary{
+  opacity: 0;
+  transform: translate3d(0px, 20px, 1px);
+  transition: all 200ms linear 0ms;
+}
+/*hoverijng over card, adjust secondary element*/
+.fancy-card:active .content .secondary,
+.fancy-card:hover .content .secondary{
+  opacity: 1;
+  transform: translate3d(0px, 0px, 1px);
+  transition: all 200ms linear 200ms;
+}
+
+/*hovering over card, adjust background overlay*/
+.fancy-card:active .bg-overlay,
+.fancy-card:hover .bg-overlay{
+  opacity: 0.84;
+  background-color: #292882
+}
+
+
+
+
+/*medium and large profiles*/
+@media screen and (min-width: 768px){
+  
+  .fancy-card{
+    width: 30%;
+    margin: 0% 1.66% 3.33% 1.66%;
+  }
+  
 }
 
 /* ---- reset ---- */
