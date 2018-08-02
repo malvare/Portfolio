@@ -3,25 +3,26 @@
 <html lang="en">
 <head>
 
-  <meta charset="utf-8">
-  <title>Contact - THOMSOON - Portfolio with grid and modern simplicity style - buy now!</title>
-  <meta name="description" content="Contact page with contact form and simplicty information with e-mail and address. Contact form with check input and textarea. ">
-  <meta name="keywords" content="thomsoon, simplicity, theme, html5, contact, form">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <meta name="author" content="thomsoon.com">
-  <link rel="icon" type="image/png" href="img/icon.png" />
+    <meta charset="utf-8">
+    <title>Contact Me</title>
+    <meta name="description"
+          content="Contact page with contact form and simplicty information with e-mail and address. Contact form with check input and textarea. ">
+    <meta name="keywords" content="thomsoon, simplicity, theme, html5, contact, form">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="thomsoon.com">
+    <link rel="icon" type="image/png" href="img/icon.png"/>
 
-<!--Style-->
+    <!--Style-->
 
-  <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/style-responsive.css">  
-  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-  
-  <!--[if lt IE 9]>
-  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-  <![endif]-->
-  
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style-responsive.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
 </head>
 
 <body>
@@ -30,132 +31,135 @@
 
 <div class="preloader" id="preloader">
     <div class="item">
-      <div class="spinner">
-      </div>
+        <div class="sk-wave">
+            <div class="sk-rect sk-rect1"></div>
+            <div class="sk-rect sk-rect2"></div>
+            <div class="sk-rect sk-rect3"></div>
+            <div class="sk-rect sk-rect4"></div>
+            <div class="sk-rect sk-rect5"></div>
+        </div>
     </div>
 </div>
 
 <div class="opacity-nav">
 
-        <div class="menu-index" id="buttons" style="z-index:999999">
+    <div class="menu-index" id="buttons" style="z-index:999999">
         <i class="fa  fa-close"></i>
-        </div>
+    </div>
 
     <ul class="menu-fullscreen">
-      <li><a href="index.html">Home</a></li>
-      <li><a class="ajax-link" href="projects.html">Projects</a></li>
-      <li><a class="ajax-link" href="about-us.html">About us</a></li>
-      <li><a class="ajax-link" href="contact.html">Contact</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a class="ajax-link" href="projects.html">Projects</a></li>
+        <li><a class="ajax-link" href="about-us.html">About us</a></li>
+        <li><a class="" href="chatbot_fullpage.html">My Bot</a></li>
+        <li><a class="ajax-link" href="contact.html">Contact</a></li>
     </ul>
 
 </div>
 
 
-  <!--Header-->
-  <header id="fullscreen">
-    
-      <div class="logo" id="full"><a href="/"><img src="img/logo/My_Brand.png"></a></div>
-      
-        <div class="menu-index" id="button">
+<!--Header-->
+<header id="fullscreen">
+
+    <div class="logo" id="full"><a href="/"><img src="img/logo/My_Brand.png"></a></div>
+
+    <div class="menu-index" id="button">
         <i class="fa fa-bars"></i>
-        </div>
+    </div>
 
-  </header>
+</header>
 
-  <div class="clear"></div>
+<div class="clear"></div>
 
-  <!--Content-->
+<!--Content-->
 
-  <div class="content" id="ajax-content">
+<div class="content" id="ajax-content">
 
-        <div class="text-intro">
+    <div class="text-intro">
 
-          <h1>Contact</h1>
-          <p>To contact me please use the contact form visible</p>
+        <h1>Contact</h1>
+        <p>To contact me please use the contact form visible</p>
 
-          <form method="post" action="?" data-jkit="[form:validateonly=true]">
-          
-          <div class="contact-one">
+        <form method="post" action="?" data-jkit="[form:validateonly=true]">
+
+            <div class="contact-one">
+                <p>
+                    <label for="miniusername">Username:</label><br/>
+                    <input name="miniusername" id="miniusername"
+                           data-jkit="[validate:required=true;min=3;max=10;error=Please enter your username (3-10 characters)]">
+                </p>
+            </div>
+
+            <div class="contact-two">
+                <p>
+                    <label for="miniemail">E-mail:</label><br/>
+                    <input name="miniemail" id="miniemail"
+                           data-jkit="[validate:required=true;strength=50;error=Please write your email]">
+                </p>
+            </div>
+
+            <div class="contact-three">
+                <p>
+                    <label>Message:</label><br/>
+                    <textarea id="message" name="message"></textarea><br/><br/>
+
+                    <input class="button-submit" name="send" type="submit" value="SUBMIT"/>
+                </p>
+            </div>
+
             <p>
-              <label for="miniusername">Username:</label><br />
-              <input name="miniusername" id="miniusername" data-jkit="[validate:required=true;min=3;max=10;error=Please enter your username (3-10 characters)]">
             </p>
-          </div>  
-          
-          <div class="contact-two">  
-            <p>
-              <label for="miniemail">E-mail:</label><br />
-              <input name="miniemail" id="miniemail" data-jkit="[validate:required=true;strength=50;error=Please write your email]">
-            </p>
-          </div>  
-          
-          <div class="contact-three">  
-            <p>
-              <label>Message:</label><br />
-              <textarea id="message" name="message"></textarea><br/><br/>
-              
-              <input class="button-submit" name="send" type="submit" value="SUBMIT" />
-            </p>
-          </div>            
-            
-            <p>
-            </p>
-          </form>
-          
-          
-        </div>
-        
-	<br/><br/><br/><br/><br/><br/><br/><br/>      
-  </div>
+        </form>
 
 
+    </div>
+
+    <br/><br/><br/><br/><br/><br/><br/><br/>
+</div>
 
 
-  <!--Home Sidebar-->
+<!--Home Sidebar-->
 
 <div id="ajax-sidebar"></div>
 
 
-
-  <!--Footer-->
-  <footer>
+<!--Footer-->
+<footer class="noscroll-footer">
 
     <div class="footer-margin">
-      <div class="social-footer">
-        <a href="https://www.facebook.com/malvi.shah.33"><i class="fa fa-facebook"></i></a>
-        <a href="https://github.com/malvare"><i class="fa fa-github"></i></a>
-        <a href="https://medium.com/@malvishah"><i class="fa fa-medium"></i></a>
-      
-      </div>     
-      <div class="copyright">© Copyright 2018. All Rights Reserved.</div>
-      
+        <div class="social-footer">
+            <a href="https://www.facebook.com/malvi.shah.33"><i class="fa fa-facebook"></i></a>
+            <a href="https://github.com/malvare"><i class="fa fa-github"></i></a>
+            <a href="https://medium.com/@malvishah"><i class="fa fa-medium"></i></a>
+        </div>
+        <div class="copyright">© Copyright 2018. All Rights Reserved.</div>
 
-    
+
     </div>
 
 
-  </footer>
+</footer>
 
 
 <!--Scripts-->
 
-  <script src="js/jquery.min.js"></script>
-	<script src="js/jquery.easing.min.js"></script>
-	<script src="js/modernizr.custom.42534.js" type="text/javascript"></script>
-  <script src="js/jquery.waitforimages.js" type="text/javascript"></script>
-  <script src="js/typed.js" type="text/javascript"></script>
-  <script src="js/masonry.pkgd.min.js" type="text/javascript"></script>  
-  <script src="js/imagesloaded.pkgd.min.js" type="text/javascript"></script>    
-  <script src="js/jquery.jkit.1.2.16.min.js"></script>
- 
-  <script src="js/script.js" type="text/javascript"></script>
-  
-	<script>
-    $('#button, #buttons').on('click', function() {
-      $( ".opacity-nav" ).fadeToggle( "slow", "linear" );
-    // Animation complete.
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.easing.min.js"></script>
+<script src="js/modernizr.custom.42534.js" type="text/javascript"></script>
+<script src="js/jquery.waitforimages.js" type="text/javascript"></script>
+<script src="js/typed.js" type="text/javascript"></script>
+<script src="js/masonry.pkgd.min.js" type="text/javascript"></script>
+<script src="js/imagesloaded.pkgd.min.js" type="text/javascript"></script>
+<script src="js/jquery.jkit.1.2.16.min.js"></script>
+
+<script src="js/script.js" type="text/javascript"></script>
+
+<script>
+    $('#button, #buttons').on('click', function () {
+        $(".opacity-nav").fadeToggle("slow", "linear");
+        // Animation complete.
     });
-  </script>
+</script>
 
 
 </body>
