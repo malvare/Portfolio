@@ -461,6 +461,7 @@ CONTENT
     width: 100% !important;
     text-align: justify;
     margin-left: 15%;
+    font-size: 1.1rem;
 }
 
 .one-column img {
@@ -470,6 +471,7 @@ CONTENT
 }
 
 .two-column p {
+    font-size: 1.3em;
     width:63% !important;
     text-align: justify;
 }
@@ -486,11 +488,54 @@ CONTENT
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
+    width: 60%;
+}
+.c1 {
+  float: left;
+  width:30%;
+  margin-left: 15%;
+  margin-top: 1%;
 }
 
+.c2 {
+  float: left;
+  width:29%;
+  margin-left: 3%;
+   margin-top: 1%;
+
+}
+
+.c3 {
+  float: left;
+  width:30%;
+  margin-left: 3%;
+   margin-top: 0.7%;
+
+}
+
+.r1::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 .clear {
     clear: both;
+}
+
+.caption{
+    font-family: CallunaLghtRegular, Georgia, serif;
+    font-size: 1.2em;
+    font-style: italic;
+    margin-left: 30%;
+}
+
+.comment1{
+    margin-left: 20%;
+    border-left: 2px solid #4F4F52;
+}
+
+.comment1 p{
+    font-style: italic;
 }
 
 .content {
@@ -529,7 +574,6 @@ CONTENT
 
 .content .text-intro p {
     font-family: CallunaLghtRegular, Georgia, serif;
-    font-size: 1.3rem;
     margin-left: 15%;
     color: #81889B;
     margin-top: 30px;
