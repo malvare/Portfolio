@@ -605,6 +605,10 @@ CONTENT
     box-shadow: 0 0 10px #149091;
 }
 
+#fact-div {
+    z-index: 11;
+}
+
 #fact{
     box-shadow: 0 0 10px #149091;
     color: #717171;
@@ -618,6 +622,14 @@ CONTENT
         visibility: visible;
     }
 }
+
+p span {
+    font-family: 'Anonymous Pro';
+    color: #009092;
+    font-size: 20px;
+
+}
+
 
 @-keyframes blink {
 0% {
