@@ -4994,7 +4994,7 @@ module.exports = {"cognito":{"poolId":""},"lex":{"botName":"WebUiOrderFlowers","
 /* 153 */
 /***/ (function(module, exports) {
 
-module.exports = {"cognito":{"poolId":""},"lex":{"botName":"WebUiOrderFlowers","initialText":"Hey there! I am Malvi's BotFolio. Welcome to Malvi's portfolio website! You can ask me about her projects or about her in general","initialSpeechInstruction":"Say 'Can you tell me about Malvi' to get started."},"polly":{"voiceId":"Salli"},"ui":{"parentOrigin":"","pageTitle":"Order Flowers Bot","toolbarTitle":"BotFolio"},"recorder":{"preset":"speech_recognition"}}
+module.exports = {"cognito":{"poolId":""},"lex":{"botName":"WebUiOrderFlowers","initialText":"Hey there! I am Malvi's BotFolio. Welcome to Malvi's portfolio website! \nYou can ask me about her projects or about her in general","initialSpeechInstruction":"Say 'Can you tell me about Malvi' to get started."},"polly":{"voiceId":"Salli"},"ui":{"parentOrigin":"","pageTitle":"BotFolio","toolbarTitle":"BotFolio"},"recorder":{"preset":"speech_recognition"}}
 
 /***/ }),
 /* 154 */
