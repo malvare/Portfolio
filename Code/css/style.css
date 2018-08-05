@@ -1508,8 +1508,10 @@ MY PROJECTS GRID
     margin: 0 auto;
     margin-top: 15%;
 }
-.fancy-card.two{
-   background-image: url("https://docs.google.com/uc?id=0B7UPM0QugWUjbkR2Um9YZ2pnNzQ");
+.fancy-card.two img{
+   display: block;
+   margin: 0 auto;
+    margin-top: 13%;
 }
 .fancy-card.three{
    background-image: url("https://docs.google.com/uc?id=0B7UPM0QugWUjNVVVay1vYkRIV1E");
