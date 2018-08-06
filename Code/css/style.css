@@ -1433,6 +1433,7 @@ input.button-submit {
     font-weight: 900;
     line-height: 40px;
     font-size: 13px;
+    margin-right: -23%;
 }
 
 input:focus {
