@@ -35,7 +35,7 @@ a {
     -ms-transition: all 0.2s ease-in;
     -o-transition: all 0.2s ease-in;
     transition: all 0.2s ease-in;
-    border-bottom: 1px solid #dedede;
+    /*border-bottom: 1px solid #dedede;*/
 }
 
 a:focus {
@@ -1467,6 +1467,7 @@ textarea:focus {
     background: #f4f4f4;
     height: 250px;
 }
+
 
 /*
 **************************
