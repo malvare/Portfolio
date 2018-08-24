@@ -172,7 +172,7 @@ $(document).ready(function(){
 	setTimeout( function(){
 		if(!$("#quote").length) {
         $(".typewrite2 span").typed({
-            //strings: ["Developer ", "Designer "],
+            //strings: ["Engineer ", "Developer ", "Designer "],
             strings: ["Hi! My name is Malvi.<br>Welcome to my Portfolio."],
             // <br /> Our eyes physically are a bundle of receptors that connect to the nerves at the back of the eyeballs that connect into our brain. <br /> The brain interprets the signals. <br /> However, there are no receptors in a black spot where the nerves go back to the brain, a REALLY BIG spot.<br /> Do you know what that means? It means that the very center of our vision is actually blank - constantly interpreting what we're seeing and filling in this gap.<br /> <br /> This gap needs to be filled with design that can be understood."],
             typeSpeed: 10,
@@ -205,7 +205,7 @@ $(window).on("scroll", function(){
     i++;
     if(i===1) {
         $(".typewrite span").typed({
-            strings: ["Developer ", "Designer "],
+            strings: ["Engineer ", "Developer ", "Designer "],
             typeSpeed: 100,
             backDelay: 500,
             loop: false,
@@ -216,7 +216,7 @@ $(window).on("scroll", function(){
     }
 }).find(".js-next").on("click", function(){
     $(".typewrite span").typed({
-        strings: ["Developer ", "Designer "],
+        strings: ["Engineer ", "Developer ", "Designer "],
         typeSpeed: 100,
         backDelay: 500,
         loop: false,

@@ -339,13 +339,15 @@ a:active, a:focus, a:hover {
     }
 
     .probootstrap-intro {
-        height: 800px;
+        height: 600px;
         padding: 7em 0
     }
 
     .probootstrap-intro h1 {
         font-size: 36px
-    }
+    }probootstrap-section
+
+
 }
 
 .probootstrap-intro .probootstrap-subtitle {
@@ -390,7 +392,7 @@ a:active, a:focus, a:hover {
 .probootstrap-burger-menu {
     display: inline-block;
     width: 18px;
-    height: 18px;
+    height: 0px;
     cursor: pointer;
     text-decoration: none
 }
@@ -398,7 +400,7 @@ a:active, a:focus, a:hover {
 .probootstrap-burger-menu i {
     position: relative;
     display: inline-block;
-    width: 18px;
+    width: 23px;
     height: 2px;
     color: #fff;
     font: 700 14px/.4 Helvetica, arial;
@@ -411,7 +413,18 @@ a:active, a:focus, a:hover {
 
 .probootstrap-burger-menu i::after, .probootstrap-burger-menu i::before {
     content: '';
-    width: 18px;
+    width: 23px;
+    height: 2px;
+    background: #fff;
+    position: absolute;
+    left: 0;
+    -webkit-transition: all .2s ease-out;
+    transition: all .2s ease-out
+}
+
+.probootstrap-burger-menu i2::after, .probootstrap-burger-menu i2::before {
+    content: '';
+    width: 23px;
     height: 2px;
     background: #fff;
     position: absolute;
@@ -446,8 +459,20 @@ a:active, a:focus, a:hover {
     transform: rotateZ(45deg)
 }
 
+.probootstrap-burger-menu.active i2::before {
+    top: 0;
+    -webkit-transform: rotateZ(45deg);
+    transform: rotateZ(45deg)
+}
+
 .probootstrap-burger-menu.active i::after {
-    bottom: 0;
+    bottom: -2px;
+    -webkit-transform: rotateZ(-45deg);
+    transform: rotateZ(-45deg)
+}
+
+.probootstrap-burger-menu.active i2::after {
+    bottom: -2px;
     -webkit-transform: rotateZ(-45deg);
     transform: rotateZ(-45deg)
 }
@@ -455,7 +480,7 @@ a:active, a:focus, a:hover {
 .probootstrap-burger-menu {
     position: absolute;
     top: 30px;
-    right: 20px
+    right: 30px
 }
 
 .btn {
@@ -1266,6 +1291,13 @@ a:active, a:focus, a:hover {
     .probootstrap-tab-style-1 {
         position: relative
     }
+    .probootstrap-section .box {
+  width: 90%;
+    }
+
+    .probootstrap-section .box1 {
+  width: 90%;
+    }
 }
 
 .service {
@@ -2000,13 +2032,28 @@ canvas {
 }
 
 i {
-    height: 30px;
+  height: 30px;
+  width: 30px;
+  margin-top: 43%;
+  border: solid white;
+  border-width: 2px 3px 2px 0;
+  display: inline-block;
+  padding: 0px;
+}
+
+i2 {
+  border-width: 0 3px 0 0;
+  display: inline-block;
+}
+
+i1 {
+  height: 30px;
   width: 30px;
   margin-top: 43%;
   border: solid white;
   border-width: 0 3px 3px 0;
   display: inline-block;
-  padding: 3px;
+  padding: 0px;
 }
 
 .down {
