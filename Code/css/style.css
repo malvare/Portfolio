@@ -600,6 +600,12 @@ CONTENT
     visibility: hidden;
 }
 
+#bulb {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 #bulb:hover
 {
     box-shadow: 0 0 10px #149091;

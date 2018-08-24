@@ -57,7 +57,7 @@
 			}
 
 		});
-	}
+	};
 
 	/*----------------------------------------
 		Burger Menu
@@ -382,10 +382,10 @@
               var percent = current_item.data('percent');
               current_item.append('<span>' + percent + '%' + '</span>').css('width', percent + '%').addClass('appeared');
           }
-          
+
       });
     };
-	}
+	};
 
 	/*----------------------------------------
 		Document Ready 

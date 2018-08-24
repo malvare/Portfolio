@@ -128,7 +128,8 @@ a:active, a:focus, a:hover {
     z-index: 9991100;
     height: 100vh;
     width: 300px;
-    background: #000;
+    /*background: #000;*/
+    background: linear-gradient(to right, #149091, #1919E6);
     padding: 40px;
     -webkit-transition: .3s all ease-out;
     transition: .3s all ease-out;
@@ -253,6 +254,7 @@ a:active, a:focus, a:hover {
     width: 100vw;
     height: 100vh;
     background: rgba(0, 0, 0, .3);
+    /*background: linear-gradient(to right, rgb(20,144,145, 0.82), rgb(25,25,230, 0.82)), url('http://ak2.picdn.net/shutterstock/videos/23582212/thumb/9.jpg');*/
     opacity: 0;
     visibility: hidden;
     -webkit-transition: .3s all ease-out;
@@ -2010,4 +2012,66 @@ i {
 .down {
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
+}
+
+.appear{
+    animation: 5500ms fadeIn;
+    animation-fill-mode: forwards;
+    visibility: hidden;
+}
+
+#bulb {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#bulb:hover
+{
+    box-shadow: 0 0 10px #149091;
+}
+
+#fact{
+    font-family: Rubik, sans-serif;
+    margin-right: auto;
+    margin-left: auto;
+    box-shadow: 0 0 10px #149091;
+    color: white;
+    position: relative;
+    z-index: 15;
+    background: linear-gradient(to right, #149091, #1919E6);
+    /*background: #1919E6;*/
+    border-radius: .4em;
+    margin-top: 1%;
+    display: none;
+    font-size: large;
+    content: "";
+}
+
+/*#fact:after {*/
+    /*content: '';*/
+    /*position: absolute;*/
+    /*top: 0;*/
+    /*left: 5%;*/
+    /*width: 0;*/
+    /*height: 0;*/
+    /*border: 20px solid transparent;*/
+    /*border-bottom-color: #1919E6;*/
+    /*border-top: 0;*/
+    /*border-left: 0;*/
+    /*margin-left: -10px;*/
+    /*margin-top: -20px;*/
+/*}*/
+
+#fact-span {
+    padding: 15px 15px 15px 15px;
+}
+
+@keyframes fadeIn {
+    99% {
+        visibility: hidden;
+    }
+    100% {
+        visibility: visible;
+    }
 }
