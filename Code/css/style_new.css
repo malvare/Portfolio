@@ -275,8 +275,10 @@ a:active, a:focus, a:hover {
 
 .probootstrap-intro .probootstrap-scroll-down {
     position: absolute;
+    text-align: center;
     z-index: 1;
     left: 50%;
+    margin-top: 15%;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
     -webkit-transition: .9s all ease-out;
@@ -335,7 +337,7 @@ a:active, a:focus, a:hover {
     }
 
     .probootstrap-intro {
-        height: inherit !important;
+        height: 800px;
         padding: 7em 0
     }
 
@@ -1948,3 +1950,63 @@ canvas {
 #logo {
     width: 100px;
 }
+
+.box {
+  background-color: white;
+  height: 250px;
+  width: 50%;
+  float: right;
+  margin-top: -14%;
+  padding: 5% 20px; /* Added a percentage value for top/bottom padding to keep the wrapper inside of the parent */
+  
+  -webkit-transform: skewY(-15deg);
+  -moz-transform: skewY(-15deg);
+  -ms-transform: skewY(-15deg);
+  -o-transform: skewY(-15deg);
+  transform: skewY(-15deg);
+}
+
+.box > .wrapper {
+  -webkit-transform: skewY(15deg);
+  -moz-transform: skewY(15deg);
+  -ms-transform: skewY(15deg);
+  -o-transform: skewY(15deg);
+  transform: skewY(15deg);
+}
+
+.box1 {
+  background-color: white;
+  height: 250px;
+  width: 50%;
+  margin-top: -14%;
+  padding: 5% 20px; /* Added a percentage value for top/bottom padding to keep the wrapper inside of the parent */
+
+  -webkit-transform: skewY(15deg);
+  -moz-transform: skewY(15deg);
+  -ms-transform: skewY(15deg);
+  -o-transform: skewY(15deg);
+  transform: skewY(15deg);
+}
+
+.box1 > .wrapper {
+
+  -webkit-transform: skewY(-15deg);
+  -moz-transform: skewY(-15deg);
+  -ms-transform: skewY(-15deg);
+  -o-transform: skewY(-15deg);
+  transform: skewY(-15deg);
+}
+
+i {
+    height: 30px;
+  width: 30px;
+  margin-top: 43%;
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
