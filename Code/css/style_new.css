@@ -152,14 +152,13 @@ CONTENT
 .one-column {
     margin-left: 9%;
     line-height: 70px;
-    width: 40%;
+    width: 50%;
     position: relative;
     float: left;
 }
 
 .two-column {
-    width: 50%;
-    margin-top: 30px;
+    width: 40%;
     position: relative;
     float: right;
 }
@@ -174,7 +173,7 @@ CONTENT
 .layer{
    position: absolute;
    left: 0px;
-   top: 0px;
+   top: -19px;
    width: 400px;
    height: 352px;
    opacity: 0.6;
@@ -184,7 +183,17 @@ CONTENT
 .layer1{
    position: absolute;
    left: 0px;
-   top: 369px;
+   top: 388px;
+   width: 400px;
+   height: 352px;
+   opacity: 0.5;
+   background-color: #009092;
+}
+
+.layer2{
+   position: absolute;
+   left: 0px;
+   top: 350px;
    width: 400px;
    height: 352px;
    opacity: 0.5;
@@ -285,10 +294,10 @@ CONTENT
 }
 
 .content .text-intro h1 {
-    margin-left: 15%;
-    font-size: 43px;
+  font-family: CallunaLghtRegular, Georgia, serif;
+    margin-left: 7%;
+    font-size: 35px;
     width: 40%;
-    text-transform: uppercase;
     color: #009092;
     font-weight: 900;
     line-height: 70px;
@@ -308,9 +317,9 @@ CONTENT
 
 .content .text-intro p {
     font-family: CallunaLghtRegular, Georgia, serif;
-    margin-left: 15%;
+    margin-left: -4%;
     color: #81889B;
-    margin-top: 30px;
+    margin-top: 0%;
     font-weight: 400;
     line-height: 1.7rem;
     letter-spacing: 1px;
@@ -416,6 +425,9 @@ canvas {
 PORTFOLIO GRID
 **************************
 */
+ul {
+  list-style: none;
+}
 
 .prev-next {
     width: 100%;
@@ -455,7 +467,7 @@ PORTFOLIO GRID
 .portfolio-grid {
     width: 1700px;
     position: relative;
-    margin-left:18%;
+    margin-left: 8.5%;
     overflow: hidden;
 }
 
@@ -497,6 +509,7 @@ li.grid-item {
     width: 360px;
     position: relative;
     float: left;
+    margin-left: -1%;
 }
 
 .grid-hover {
@@ -532,7 +545,7 @@ li.grid-item {
 
 .grid-hover p {
     font-size: 14px;
-    bottom: 40%;
+    bottom: 36%;
     left: 13%;
     position: absolute;
     color: #000000;
@@ -543,7 +556,7 @@ li.grid-item {
 
 .grid-hover h5 {
     font-style: italic;
-    bottom: 35%;
+    bottom: 34%;
     left: 13%;
     position: absolute;
     color: #000000;
@@ -566,7 +579,7 @@ li.grid-item {
 
 .idea p {
     font-size: 14px;
-    bottom: 15%;
+    bottom: 11%;
     left: 13%;
     position: absolute;
     color: #000000;
@@ -577,7 +590,7 @@ li.grid-item {
 
 .idea h5 {
     font-style: italic;
-    bottom: 10%;
+    bottom: 9%;
     left: 13%;
     position: absolute;
     color: #000000;
@@ -941,7 +954,7 @@ ol, p, ul {
 a {
     -webkit-transition: .3s all;
     transition: .3s all;
-    color: #ff7676
+    color: #292882;
 }
 
 a:active, a:focus, a:hover {
