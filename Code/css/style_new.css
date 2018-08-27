@@ -738,7 +738,7 @@ MY PROJECTS GRID
   background-size: cover;
   background-position: center center;
   margin-bottom: 30px;
-  margin-left: 15%;
+  /*margin-left: 15%;*/
 }
 .fancy-card.one img{
     display: block;
