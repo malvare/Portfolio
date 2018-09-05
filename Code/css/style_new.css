@@ -161,6 +161,7 @@ CONTENT
     width: 40%;
     position: relative;
     float: right;
+    margin-top: -63.3%;
 }
 
 .three-column{
@@ -193,7 +194,7 @@ CONTENT
 .layer2{
    position: absolute;
    left: 0px;
-   top: 350px;
+   top: 296px;
    width: 400px;
    height: 352px;
    opacity: 0.5;
@@ -209,8 +210,8 @@ CONTENT
 
 .one-column img {
     position: absolute;
-    margin-top: 30px;
     margin-left:-2%;
+    margin-bottom: 20px;
 }
 
 .two-column p {
@@ -2324,6 +2325,10 @@ a:active, a:focus, a:hover {
     width: 80%;
     }
 
+    .probootstrap-intro .probootstrap-scroll-down {
+      margin-top: 35%;
+    }
+
 }
 
 @media screen and (max-width: 1250px) and (min-width: 1025px) {
@@ -2339,21 +2344,69 @@ a:active, a:focus, a:hover {
     width: 80%;
     }
 
+    .probootstrap-intro .probootstrap-scroll-down {
+      margin-top: 15%;
+    }
+
 }
 
-@media screen and (max-width: 1700px) and (min-width: 1250px) {
+@media screen and (max-width: 1500px) and (min-width: 1250px) {
      .probootstrap-intro {
         height: 900px;
     }
 
 .probootstrap-section .box {
-    width: 50%;
+    width: 65%;
     }
 
     .probootstrap-section .box1 {
-    width: 50%;
+    width: 65%;
     }
 
+    .probootstrap-intro .probootstrap-scroll-down {
+      margin-top: 15%;
+    }
+
+}
+
+@media screen and (max-width: 1720px) and (min-width: 1500px) {
+     .probootstrap-intro {
+        height: 900px;
+    }
+
+.probootstrap-section .box {
+    width: 53%;
+    }
+
+    .probootstrap-section .box1 {
+    width: 53%;
+    }
+
+    .probootstrap-intro .probootstrap-scroll-down {
+      margin-top: 15%;
+    }
+
+}
+
+@media screen and (max-width: 1920px) and (min-width: 1720px) {
+     .probootstrap-intro {
+        height: 900px;
+    }
+
+.probootstrap-section .box {
+   height: 290px;
+    width: 53%;
+    }
+
+    .probootstrap-section .box1 {
+    height: 290px;
+    width: 53%;
+    }
+
+    .probootstrap-intro .probootstrap-scroll-down {
+      bottom: 50px;
+      margin-top: 15%;
+    }
 }
 
 
