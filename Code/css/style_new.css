@@ -201,6 +201,22 @@ CONTENT
    background-color: #009092;
 }
 
+.blue-layer {
+    position: absolute;
+    opacity: 0.6;
+    background-color: #292882;
+    height: 100%;
+    width: 100%;
+}
+
+.green-layer {
+    position: absolute;
+    opacity: 0.6;
+    background-color: #009092;
+    height: 100%;
+    width: 100%;
+}
+
 .one-column p {
     width: 100% !important;
     text-align: justify;
