@@ -1639,7 +1639,8 @@ a:active, a:focus, a:hover {
 
 .lead {
     font-size: 1.125em;
-    line-height: 1.65
+    line-height: 1.65;
+    text-align: justify;
 }
 
 .probootstrap-footer {
