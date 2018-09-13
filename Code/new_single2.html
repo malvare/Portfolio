@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <title>Project-2</title>
+    <meta name="description"
+          content="Malvi - Portfolio Masonry boxed layout. Clean and minimalist portfolio and photography.">
+    <meta name="keywords" content="malvi, simplicity, portfolio, ux, creative ">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="thomsoon.com">
+    <link rel="icon" type="image/png" href="img/icon.png"/>
+
+    <!--Style-->
+
+    <!--<link rel="stylesheet" href="css/reset.css">-->
+    <!--<link rel="stylesheet" href="css/style.css">-->
+    <link rel="stylesheet" href="css/styles-merged.css">
+    <link rel="stylesheet" href="css/style_new.css">
+    <link rel="stylesheet" href="css/style-responsive.css">
+
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <style>
+
+        .probootstrap-main-nav li a {
+            color: #292882;
+        }
+
+        .probootstrap-main-nav li a:hover, .probootstrap-main-nav li.active a, .probootstrap-main-nav li.active a:hover  {
+            border-bottom: 2px solid #292882;
+        }
+
+        .probootstrap-burger-menu i::after, .probootstrap-burger-menu i::before {
+            background: #292882;
+        }
+
+        .probootstrap-burger-menu i {
+            width: 23px;
+            height: 5px;
+            background: #292882;
+        }
+
+        i {
+            height: 30px;
+            width: 30px;
+            margin-top: 43%;
+            border: #292882;
+            border-width: 2px 3px 2px 0;
+            display: inline-block;
+            padding: 0px;
+        }
+
+        @media screen and (max-width: 768px) {
+            .probootstrap-main-nav li a:hover, .probootstrap-main-nav li.active a, .probootstrap-main-nav li.active a:hover {
+                border-bottom: 2px solid #ffffff;
+            }
+
+            .probootstrap-main-nav li a {
+                color: #fff;
+            }
+        }
+
+        .row {
+            margin-left: 0;
+            margin-right: 0;
+        }
+
+    </style>
+
+</head>
+<body>
+<!-- START: header -->
+<header role="banner" class="probootstrap-header">
+    <div class="container-fluid">
+        <a href="/"><img src="img/logo/My_Brand.png" id="logo"></a>
+
+        <a href="#" class="probootstrap-burger-menu visible-xs" ><i style="color: #292882">Menu</i></a>
+        <div class="mobile-menu-overlay"></div>
+
+        <nav role="navigation" class="probootstrap-nav hidden-xs">
+            <ul class="probootstrap-main-nav">
+                <li><a href="/">Home</a></li>
+                <li><a href="about-us.html">About Me</a></li>
+                <li><a href="projects.html">My Projects</a></li>
+                <li><a href="chatbot_fullpage.html">My Bot</a></li>
+                <li><a href="contact.html">Contact Me</a></li>
+            </ul>
+            <div class="extra-text visible-xs">
+                <a href="#" class="probootstrap-burger-menu"><i2></i2></a>
+            </div>
+        </nav>
+    </div>
+</header>
+<!-- END: header -->
+
+<section id="next-section" class="probootstrap-section" style="padding-top: 0">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 section-heading probootstrap-animate">
+                <h2>ETR+ Website</h2>
+
+                <div class="col-md-4">
+                    <br />
+                    <img src="img/single2/Company%20Image.png" style="width: 100%; margin-top: 7%">
+                </div>
+                <br />
+                <div class="col-md-8" style="border-left: 2px solid #82BC4A; ">
+                    <p class="lead">Enterprise Technology Research [ETR], is a primary technology market research firm providing insight into large scale technology, vendor, and competitive landscape trends through primarily sourced and proprietarily modeled mind + market share analysis. The company has created new quantitative systems and platforms to hyper-accelerate emerging technologies into enterprises. I worked as a UX/UI Intern at the company and contributed to their project.
+                    </p>
+                    <p class="lead" style="color: #82BC4A">Project Duration: 2 months</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 col-md-12 section-heading probootstrap-animate">
+                <h2>Overview</h2>
+                <div class="col-md-12">
+                    <p>
+                        Over 9 years, ETR has aggregated 4 Million+ data points on 350+ public and private vendors and has visibility into roughly $835 Billion of enterprise IT spend by surveying our robust network of 4000 of the most highly, and consistently, engaged enterprise IT professionals on their forward looking spending intentions.
+                    </p>
+                    <p>
+                        The company not only collects the data through surveys, but also produces consumer and data driven analysis reports supported by quantitative research. The entire system transparent - ETR provides all the data too, not just the research. The company uses Power BI Models for data visualization to share all the raw data points with the users. There is a provision for access to compiled research reports that is available to the subscribers.
+                        <br />
+                    </p>
+                    <img src="img/single2/methodology.png" style="width: 100%;">
+                    <p style="text-align: center; font-style: italic">
+                        <b>The company follows a focused methodology that drills down from the general data points to the more specific qualitative research</b>
+                    </p>
+                    <br />
+                    <img src="img/single2/Research%20Sources.png" style="width: 100%;">
+                    <p style="text-align: center; font-style: italic">
+                        <b>This shows the primary research sources, also available to the users,  that validate the research reports produced by the company</b>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 col-md-12 section-heading probootstrap-animate">
+                <h2>Problem Definition</h2>
+                <div class="col-md-12">
+                    <p>
+                        The company had a website through which all their research content and reports were available. It was a private platform, only visible to their subscribed clients who had the login credentials provided by the company. With the production of more robust research, ETR was looking to make the platform more accessible to the general public. The task to be accomplished was thus based on this requirement - <strong> Design a user-friendly public facing platform.</strong>
+                    </p>
+                    <p>
+                        <strong>First Thought:</strong> In an era of online retail where everything is available by just one click, buying a report should also be quite straightforward.
+                    </p>
+                    <p>
+                        <strong>Later Realization:</strong> The primary market for ETR was e-commerce, however their target audience and their product was completely unique. When you are working with so much data, a lot of other considerations come into picture. The designs had to include all the key data terms and research information that needed to be conveyed to the users, and at the same time make it easier for them to navigate through all of it.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 col-md-12 section-heading probootstrap-animate">
+                <h2>My Team/Role</h2>
+                <div class="col-md-4">
+                    <p class="lead" style="color: #82BC4A">Malvi Shah - UX/UI Designer</p>
+                </div>
+                <div class="col-md-4">
+                    <p class="lead" style="color: #82BC4A">Sanchit Kumar - UX/UI Designer</p>
+                </div>
+                <div class="col-md-4">
+                    <p class="lead" style="color: #82BC4A">Wolfgang Criollo - Product Engineer</p>
+                </div>
+                <div class="col-md-12" style="text-align: justify">
+                    <p>
+                        I worked with Sanchit on giving the entire platform a completely new look, coordinated with the analytics, marketing, legal and sales team to include all their feedback in the designs, and also with the engineering team to ensure a smooth transition from design to development. I worked closely with Wolfgang as well so that I could design whilst keeping the development restrictions in mind.  As a team, we came up with multiple design solutions and ran a number of iterations based on the feedback before finalizing the complete look.
+                    </p>
+                    <p>
+                        My role in this project was to leverage my knowledge of user behaviour and expectations to make research driven design decisions to enhance the user experience of the website. I utilized my background in Computer Engineering to speak the same language as the developers, consider the development limitations due to time constraints at the design stage, and ensure smooth communication right from the ideation phase to the final delivery.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 col-md-12 section-heading probootstrap-animate">
+                <h2>Audience</h2>
+                <div class="col-md-12">
+                    <p>
+                        The biggest challenge that we had in this project was recognizing the target users and incorporating their expectations in our design solutions. ETR’s existing were already familiar with the current interface, and were used to a certain look and feel of the website. For them, something new which would potentially serve the same purpose, was not such an ideal solution.
+                    </p>
+                    <p>
+                        On the other hand were the new users, people who had not had access to the private platform. This included people who were from the data research field, along with people from other departments who were not completely familiar with all the research jargon.
+                    </p>
+                    <p>
+                        The reason behind giving the website a new look was to enhance the experience for the new users - people who had never seen the old website. The idea was to be able to ensure smooth  scaling that would reduce the burden on the sales team. This was aimed at targeting a whole new user base.
+                    </p>
+                    <p>
+                        The user base that I talk about here are CIOs, Investors, Vendors, of leading corporations, who we could not get direct access to. We thus had to formulate our design decisions around the feedback we got from the Sales Team and the Heads of various departments within the company, all the whom communicated with the clients on a daily basis.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 col-md-12 section-heading probootstrap-animate">
+                <h2>Our Strategy</h2>
+                <div class="col-md-12">
+                    <p>
+                        We were working on a strict timeline right from the very beginning. We were working in an agile environment under which the solutions were to evolve through the collaborative effort of cross-functional teams. Adaptive planning and early delivery were imperative to ensure continuous improvement and evolutionary development. Our strategy looked something like this -
+                    <ul style="list-style-type:disc;">
+                        <li>Familiarize with the need of the website</li>
+                        <li>Come up with low-fidelity wireframes</li>
+                        <li>Get in touch with the various departments and get their collective feedback</li>
+                        <li>Finalize a color palette for the website</li>
+                        <li>Mock up the high-fidelity prototype</li>
+                        <li>Get feedback on the designs and iterate</li>
+                        <li>Finalize the solution and ensure a smooth handover to the dev team</li>
+                    </ul>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 col-md-12 section-heading probootstrap-animate">
+                <h2>Design Process</h2>
+                <div class="col-md-4">
+                    <p class="lead" style="color: #82BC4A; text-align: center">Wireframing Tool:<br/>Sketch, Photoshop, Illustrator</p>
+                </div>
+                <div class="col-md-4">
+                    <p class="lead" style="color: #82BC4A; text-align: center">Animation Tool:<br/>Adobe After Effects</p>
+                </div>
+                <div class="col-md-4">
+                    <p class="lead" style="color: #82BC4A; text-align: center">Prototyping Tool:<br/>InVision</p>
+                </div>
+                <div class="col-md-12">
+                    <p>
+                        The very first step was to recognize the needs of the company and design around those needs. We had seen the existing website and identified the issues with it. One of the primary issues was the existing website was that it was not intuitive. Only people who were familiar with it could understand its functioning. The fundamental rule to keep in mind when designing from a private to a public-facing website is to eliminate the assumptions that “users would know”. This was a tough task since we were designing for a data research platform.
+                    </p>
+                    <p>
+                        Based on our initial interactions with the different teams, we got an idea of the key components of the platform and what each of those would roughly consist of. It was essential to breakdown the entire website and recognize each functionality individually.
+                    </p>
+                    <img src="img/single2/ETR%20Breakdown.png" style="width: 100%">
+                    <p><br />
+                        Keeping this in mind, I decided to create a flow of how the users would interact with the interface. Principle design decisions like the usage of a vertical navigation over a horizontal navigation, the list of menu-items/subitems, the connection among these pages to establish a smooth flow, were all made based on generic user behavior. Once we got an idea of the flow of the interface, we started designing the low-fidelity wireframes.
+                    </p>
+                    <img src="img/single2/low-fi.png" style="width: 100%">
+                    <p><br />
+                        These wireframes mainly consisted of placeholders and dummy images. The idea was to share the flow of the interface and the positioning of elements within the key pages with the decision makers - the VP of Engineering, the Head of Data Science, and the CEO of the company.
+                    </p>
+                    <p>
+                        With each round of feedback, we went back to iterating and refining the wireframes. There was a constant response to the changes suggested, which at times even helped to make decision. For instance, if there was an issue regarding color or placing of elements, we would mock up the designs to compare the options and accelerate the decision making. Once the low-fidelity designs were good to go, the next task at hand was to finalize the visual design of the wireframes.
+                    </p>
+                    <p>
+                        To get started with the visual design, we had to decide on a color palette. Since we were collaborating on sketch, we created a library which we shared with one another to get access to all the basic elements, buttons, icons, font styles and colors.
+                    </p>
+                    <img src="img/single2/both.png" style="width: 100%">
+                    <p>
+                        <br />
+                    </p>
+                    <img src="img/single2/library.png" style="width: 100%">
+                    <p><br />
+                        The design library was shared among the three team members and from there it was pretty much <strong>divide and conquer</strong>. We divided the pages and started working on the visual design of the prototype. In this process, we encountered multiple edge cases that we had not designed for and this created an issue when we tried to design a smooth flow. What helped in this was mapping down the various directions that the user could potentially approach the website from. This cleared our thought process and helped us design better.
+                    </p>
+                    <img src="img/single2/Flow%20chart.png" style="width: 100%">
+                    <p><br />
+                        This flow eased the process of identifying the corner cases that we realized were not accounted for and we started tackling those designs simultaneously as well.
+                    </p>
+                    <p>
+                        The next and final step was to combine all these high-fidelity wireframes to create a fully functional prototype. The straightforward collaboration between Sketch and InVision helped tremendously to to accelerate the process. Sketch plugins also played a pivotal role in escalating the design process. Some of the amazing plugins that I discovered were-
+                        <ul style="list-style-type:disc;">
+                            <li>Craft - For transferring Sketch artboards to InVision</li>
+                            <li>Design System Manager - To ensure automatic design updates across all platforms</li>
+                            <li>FontBuddy - To get the missing fonts on individual systems</li>
+                            <li>HTML Export - To export the html code from Sketch artboards</li>
+                            <li>Zeplin - To ease the process of spec share with the development team</li>
+                            <li>Trunk - Which acted like Git for Sketch and helped in the design collaboration</li>
+                        </ul>
+                    </p>
+                    <p>
+                        These plugins were of tremendous help for collaboration within the design team as well as for cross-functional collab with the development team. Within no time the prototype was ready in InVision and shared with the different departments to review. There were comments and reactions that needed to be addressed, most of which required minor design changes, which were dealt with thereafter.
+                    </p>
+                    <p>
+                        Following a series of iterations, the hi-fidelity designs were approved, and then I had to work on the Landing Page for the website. To know about my Landing Page design process, <a href="new_single3.html">click here.</a>
+                    </p>
+                    <p>
+                        The landing page design was not where our work ended. Final design approvals meant that the design were to be handed over to the Dev Team for next step. The important aspect here was to hand over the specs of all the design elements, to ensure a smooth handover. Some of the plugins I mentioned above (Zeplin, HTML Export) assisted in this process. As the development process began, we kept getting some design updates that the dev team came across and had to work in parallel to deliver results in real time. We used to write stories on JIRA to explain the user interactions that our designs were based on with the Dev Team. The functional prototype in InVision also proved to be fundamental in this process.
+                    </p>
+                    <p>
+                        Get access to our high-fidelity functional prototype <a href="" >here.</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 col-md-12 section-heading probootstrap-animate">
+                <h2>Overcoming the Limitations</h2>
+                <div class="col-md-12">
+                    <p>
+                        A major factor concerning the new design was the consideration of old users. The truth is that when people are visiting websites, they don't spend their time analyzing or admiring the design. They focus their attention on the task, the content, and their own data or documents. People love design only when they are familiar with the features and know where to look.
+                    </p>
+                    <p>
+                        It's a law of nature that users hate change, and they'll complain every time you move anything around or otherwise reduce their ability to just do what they've always done. And this was a big issue with the redesign project that we had just completed.
+                    </p>
+                    <p>
+                        However, according to <a href="https://www.nngroup.com/videos/jakobs-law-internet-ux/">Jakob’s Law of the Internet User Experience</a>, people usually spend 2-3 minutes on a website, so even if they visit your site daily, they'd run up only 30 exposure hours over 2 years. This suggests that people spend more time on other websites combined than they do on your own website. The user’s expectations are based on their understanding gained from other applications, which the company’s original website was not in sync with. These were some of the rules that we had kept in mind when redesigning the website.
+                    </p>
+                    <p>
+                        Keeping this in mind, we came up with a solution to create a User Journey Guide to effortlessly guide the current users into the new experience. The idea was to map the functionality from the original website to the way it worked in the new website.
+                    </p>
+                    <img src="img/single2/1.png" style="width: 100%">
+                    <p>
+                        <br />
+                    </p>
+                    <img src="img/single2/2.png" style="width: 100%">
+                    <p style="text-align: center; font-style: italic">
+                        <b>Indicating the same elements from the old website in a different format on the new website</b>
+                    </p>
+                    <p><br />
+                        Since the User Journey Guide was under process for the old users, we decided that the new users could also gain something from it. For this purpose, we decided to explain some of the key functionality of the new website in this guide as well. The different formats of this guide were displayed on the website based on whether a user was logged in or not.
+                    <ul style="list-style-type:disc;">
+                        <li>A logged in user was assumed to be an existing user and the mapping of the old and new website was included in the guide for them.</li>
+                        <li>A non-logged in user was assumed to be a new user and only the information explaining the new website was included in the guide for them.</li>
+                    </ul>
+                    </p>
+                    <img src="img/single2/3.png" style="width: 100%">
+                    <p>
+                        <br />
+                    </p>
+                    <img src="img/single2/4.png" style="width: 100%">
+                    <p style="text-align: center; font-style: italic">
+                        <b>The guide that could help new users understand how the interface works</b>
+                    </p>
+                    <p><br />
+                        Another noticeable aspect that I discovered while sitting in on one of the sales calls was that even the users who had been clients for a while now, were not very familiar with certain terms that the data research and analysis models on the website were using. This directed us believe that getting the new users onboard would require some form of a tutorial explaining some of the frequently used terms. This terminology tutorial was also be included in the Guide I mentioned previously.
+                    </p>
+                    <img src="img/single2/5.png" style="width: 100%">
+                    <p>
+                        <br />
+                    </p>
+                    <img src="img/single2/6.png" style="width: 100%">
+                    <p style="text-align: center; font-style: italic">
+                        <b>An explanation of the key terms used in the website</b>
+                    </p>
+                    <p><br />
+                        As you can see in the images above, the definitions were mapped to the terms in the charts with the usage of an appropriate color scheme. Having the option of using this guide while the users go through the Power BI Models would make it easier to understand and interpret.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 col-md-12 section-heading probootstrap-animate">
+                <h2>Retrospective</h2>
+                <div class="col-md-12">
+                    <p>
+                        Once developed, the site was launched. The site was linked to Google Analytics and that is where we got our feedback from. It was critical to track the response and improvise rapidly. Some of the key things that I took note of were -
+                    <ul style="list-style-type:decimal;">
+                        <li>
+                            The website was essentially designed for desktop, assuming that the users would prefer to view the complex Power BI Models on desktop. However in the very first week we noticed that 70-80% of the users were using it on mobile.
+                            <img src="img/single2/7.png" style="width: 100%"><br/>
+                            The website was responsive, but the designs were not built for mobile view. The CTA buttons on the important pages were pushed down, making it difficult for the users to see. Forms, input fields, and even the dashboard design was not intuitive on mobile.
+                        </li>
+                        <br />
+                        <li>
+                            The number of views had shot up drastically as compared to the old website. However, one of the obvious reasons for that was that the old site was private while the new one was public. Also, with the increase in page views, the bounce rate had also gone up, and the average time on each page had gone down. These signs indicated that people were clicking on the ads, but not staying on the site for long.
+                            <img src="img/single2/8.png" style="width: 100%">
+                            <p style="text-align: center; font-style: italic">
+                                <b>The results for user activity on the old website</b>
+                                <br />
+                            </p>
+                            <img src="img/single2/9.png" style="width: 100%">
+                            <p style="text-align: center; font-style: italic">
+                                <b>The results for user activity on the new website</b>
+                            </p>
+                        </li>
+                        <br />
+                        <li>
+                            The user behavior flow indicated that the number of users starting onn the Pricing Page was very high, which indicated that people wanted to know about the subscription plans. However, the flow also indicated that hardly any users actually went from the pricing page to the Checkout Page, which was just one click away. A lot more users were found going back to the Home Page or the Marketplace, which suggested that the information on the pricing page was not convincing enough to sell the product.
+                            <img src="img/single2/10.png" style="width: 100%">
+                        </li>
+                        <br />
+                        <li>
+                            One of the most important things I learnt through this project was the significance of cross-functional collaboration and communication. Understanding the requirements of each team at an initial stage helped in the preparation of design handoffs very early on in the process. This permitted us to consider various ideas and inputs, and satisfy all the needs.
+                            <img src="img/single2/11.png" style="width: 100%"><br/>
+                            Working closely with the developers significantly expedited the entire process. Designing simultaneously as they built allowed us to identify opportunities to strengthen our original solution. Understanding the constraints and designing around it ensured a felicitous delivery of the product that eventually guaranteed a timely launch.
+                            <br/><br/>
+                            You can checkout the website at <a href="https://etr.plus/" style="color: #82BC4A">https://etr.plus/</a>
+                        </li>
+
+                    </ul>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 col-md-12 section-heading probootstrap-animate">
+                <div class="col-md-2">
+                    <a href="new_single1.html" style="color: #81889B">Previous work</a>
+                </div>
+                <div class="col-md-8"></div>
+                <div class="col-md-2">
+                    <a href="new_single3.html" style="color: #81889B">Next work</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+<!--Footer-->
+<!-- START: section -->
+<section class="probootstrap-section" style="padding-bottom: 0; z-index: 3">
+    <div class="container">
+        <div class="row text-center probootstrap-animate">
+            <a href="https://www.facebook.com/malvi.shah.33"><i class="fa fa-facebook" style="margin-top: 0; color: #149091"></i></a>
+            <a href="https://www.instagram.com/malvishah05/"><i class="fa fa-instagram" style="margin-top: 0; color: #149091"></i></a>
+            <a href="https://dribbble.com/mshah"><i class="fa fa-dribbble" style="margin-top: 0; color: #149091"></i></a>
+            <a href="https://github.com/malvare"><i class="fa fa-github" style="margin-top: 0; color: #149091"></i></a>
+            <a href="https://medium.com/@malvishah.94"><i class="fa fa-medium" style="margin-top: 0; color: #149091"></i></a>
+            <br>
+            <a href="#" class="js-backtotop probootstrap-copyright" style="margin-top: 0; color: #149091">Back to top</a>
+            <div class="probootstrap-copyright">© Copyright 2018. All Rights Reserved.</div>
+        </div>
+    </div>
+</section>
+<!-- END: section -->
+
+<!--Scripts-->
+
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.easing.min.js"></script>
+<script src="js/modernizr.custom.42534.js" type="text/javascript"></script>
+<script src="js/jquery.waitforimages.js" type="text/javascript"></script>
+<script src="js/typed.js" type="text/javascript"></script>
+<script src="js/masonry.pkgd.min.js" type="text/javascript"></script>
+<script src="js/imagesloaded.pkgd.min.js" type="text/javascript"></script>
+<script src="js/jquery.jkit.1.2.16.min.js"></script>
+
+<script src="js/script.js" type="text/javascript"></script>
+
+<script>
+    $('#button, #buttons').on('click', function () {
+        $(".opacity-nav").fadeToggle("slow", "linear");
+        // Animation complete.
+    });
+</script>
+
+</body>
+</html>
