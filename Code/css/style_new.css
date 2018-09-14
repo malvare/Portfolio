@@ -965,7 +965,8 @@ h3 {
 }
 
 ol, p, ul {
-    margin-bottom: 1.3em
+    margin-bottom: 1.3em;
+    font-size: 1.05em;
 }
 
 a {
@@ -1638,7 +1639,7 @@ a:active, a:focus, a:hover {
 }
 
 .lead {
-    font-size: 1.125em;
+    font-size: 1.2em;
     line-height: 1.65;
     text-align: justify;
 }
