@@ -1,10 +1,430 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>$Title$</title>
+
+    <meta charset="utf-8">
+    <title>Project-4</title>
+    <meta name="description"
+          content="Malvi - Portfolio Masonry boxed layout. Clean and minimalist portfolio and photography.">
+    <meta name="keywords" content="malvi, simplicity, portfolio, ux, creative ">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="thomsoon.com">
+    <link rel="icon" type="image/png" href="img/icon.png"/>
+
+    <!--Style-->
+
+    <!--<link rel="stylesheet" href="css/reset.css">-->
+    <!--<link rel="stylesheet" href="css/style.css">-->
+    <link rel="stylesheet" href="css/styles-merged.css">
+    <link rel="stylesheet" href="css/style_new.css">
+    <link rel="stylesheet" href="css/style-responsive.css">
+    <link href="css/zoom.css" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <style>
+
+        .probootstrap-main-nav li a {
+            color: #292882;
+        }
+
+        .probootstrap-main-nav li a:hover, .probootstrap-main-nav li.active a, .probootstrap-main-nav li.active a:hover  {
+            border-bottom: 2px solid #292882;
+        }
+
+        .probootstrap-burger-menu i::after, .probootstrap-burger-menu i::before {
+            background: #292882;
+        }
+
+        .probootstrap-burger-menu i {
+            width: 23px;
+            height: 5px;
+            background: #292882;
+        }
+
+        i {
+            height: 30px;
+            width: 30px;
+            margin-top: 43%;
+            border: #292882;
+            border-width: 2px 3px 2px 0;
+            display: inline-block;
+            padding: 0px;
+        }
+
+        @media screen and (max-width: 768px) {
+            .probootstrap-main-nav li a:hover, .probootstrap-main-nav li.active a, .probootstrap-main-nav li.active a:hover {
+                border-bottom: 2px solid #ffffff;
+            }
+
+            .probootstrap-main-nav li a {
+                color: #fff;
+            }
+        }
+
+        .row {
+            margin-left: 0;
+            margin-right: 0;
+        }
+    </style>
 </head>
 <body>
-$END$
+<!-- START: header -->
+<header role="banner" class="probootstrap-header">
+    <div class="container-fluid">
+        <a href="/"><img src="img/logo/My_Brand.png" id="logo"></a>
+
+        <a href="#" class="probootstrap-burger-menu visible-xs" ><i style="color: #292882">Menu</i></a>
+        <div class="mobile-menu-overlay"></div>
+
+        <nav role="navigation" class="probootstrap-nav hidden-xs">
+            <ul class="probootstrap-main-nav">
+                <li><a href="/">Home</a></li>
+                <li><a href="about-us.html">About Me</a></li>
+                <li><a href="projects.html">My Projects</a></li>
+                <li><a href="chatbot_fullpage.html">My Bot</a></li>
+                <li><a href="contact.html">Contact Me</a></li>
+            </ul>
+            <div class="extra-text visible-xs">
+                <a href="#" class="probootstrap-burger-menu"><i2></i2></a>
+            </div>
+        </nav>
+    </div>
+</header>
+<!-- END: header -->
+
+<section id="next-section" class="probootstrap-section" style="padding-top: 0">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 section-heading probootstrap-animate">
+                <h2>Landing Page</h2>
+
+                <div class="col-md-4">
+                    <br />
+                    <img src="img/single3/1.png" style="width: 100%;">
+                </div>
+                <br />
+                <div class="col-md-8" style="border-left: 2px solid #82BC4A; ">
+                    <p class="lead">Enterprise Technology Research [ETR], is a primary technology market research firm with an aim to share their insights and analyses with the world through their platform - a public-facing website. This project details out the process of the thoughts and actions that went into creating a landing page for the website.
+                    </p>
+                    <p class="lead" style="color: #82BC4A">Project Duration: 1 months</p>
+                </div>
+                <img src="img/single3/Responsive.gif" style="width: 100%">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 col-md-12 section-heading probootstrap-animate">
+                <h2>Overview</h2>
+                <div class="col-md-12">
+                    <p>
+                        Over 9 years, ETR has aggregated 4 Million+ data points on 350+ public and private vendors and has visibility into roughly $835 Billion of enterprise IT spend by surveying our robust network of 4000 of the most highly, and consistently, engaged enterprise IT professionals on their forward looking spending intentions.The landing page of a website is a standalone page, distinct from all the other pages, yet keeping the entire website connected. If handled correctly, it could be the next step toward a visitor becoming a customer. While the essence of a landing page differs depending on the business/product the website is trying to sell, its significance in this project went further. The website, for which the landing page was to be designed, was being launched as a public facing site for the very first time. Additionally, the core business of the company was targeting an unsaturated market. The landing page was liable for ensuring that all the information is presented to the user in a responsible manner to generate curiosity and garner conversions. If you haven’t already done so, I would encourage you to read my previous <a href="new_single2.html" style="color: #82BC4A">case study</a> to get an idea of the project I was working on for the data research firm ETR(Enterprise Technology Research).
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 col-md-12 section-heading probootstrap-animate">
+                <h2>Problem Definition</h2>
+                <div class="col-md-12">
+                    <p>
+                        Once the high fidelity visual designs for the rest of the website were finalized and the deployment to the development team was successfully completed, I was given the task of designing the landing page for the platform. In my head, this looked like a great opportunity to play with a range of colors, design cool animations, create a minimalistic look with the less, more specific content. It wasn’t too long before I realized how wrong I was.
+                    </p>
+                    <p>
+                        When you are working for a <strong>Data Research</strong> firm, you learn that the key value proposition revolves around data and that subsequently increases its significance. This was the first time that ETR was releasing a public facing website. This was the first time that EVERYONE was going to know what the company does exactly. All this responsibility was needed to be fulfilled by the landing page. The landing page was going to be the very first thing that people would see on the website, and was responsible for setting the brand of the company.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 col-md-12 section-heading probootstrap-animate">
+                <h2>Audience</h2>
+                <div class="col-md-12">
+                    <p>
+                        The audience for the landing page obviously included the target user base for the product/service that the website was selling. However, the users who would benefit the most from the landing page were the new ones, people who had not originally been clients of the company, did not have a subscription plan on their old website, or a clear idea of what they get when they sign up.
+                    </p>
+                    <p>
+                        These new users included<em> Investors </em>and<em> Enterprise Leading Technologists </em>like CIOs and IT executives,<em> Enterprise Technology Vendors </em>looking to capture real-time market activity, and the<em> Government IT Departments</em>. The landing page thus had to include information relevant to all these people who belonged to the data research sector. At the same time I had to make sure not to encourage the assumption that all these users would be familiar with the sector jargon.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 col-md-12 section-heading probootstrap-animate">
+                <h2>Strategy</h2>
+                <div class="col-md-12">
+                    <p>
+                        Once the website was under development, the work that followed was divided up within the team. I was assigned the task to come up with the landing page design. During the course of the entire project, I
+                    <ul style="list-style-type:disc;">
+                        <li>Conducted the qualitative research.</li>
+                        <li>Got in touch with the Analytics Team, Marketing Team, and the Sales Team to understand their expectations for the landing page.</li>
+                        <li>Coordinated with the engineering team to ensure that I have a clear understanding of all the development constraints.</li>
+                        <li>Went back to the the research phase with all the newly acquired information!</li>
+                        <li>Worked on curating the content with the Marketing Team.</li>
+                        <li>Iterated through the designs based on the feedback.</li>
+                        <li>Worked on designing the animations for the landing page.</li>
+                        <li>Finalized the design with all the teams.</li>
+                        <li>Communicated the expectations and delivered the assets to the development team.</li>
+                        <li>Worked with the front end developer to design the landing page on mobile.</li>
+                    </ul>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 col-md-12 section-heading probootstrap-animate">
+                <h2>Design Process</h2>
+                <div class="col-md-4">
+                    <p class="lead" style="color: #82BC4A; text-align: center">Wireframing Tool:<br/>Sketch, Photoshop</p>
+                </div>
+                <div class="col-md-4">
+                    <p class="lead" style="color: #82BC4A; text-align: center">Animation Tool:<br/>Adobe After Effects</p>
+                </div>
+                <div class="col-md-4">
+                    <p class="lead" style="color: #82BC4A; text-align: center">Prototyping Tool:<br/>InVision</p>
+                </div>
+                <div class="col-md-12">
+                    <p>
+                        The design process for the landing page began with going back to the website UI. It was essential to use similar colors and elements to ensure that the landing page design looked like a part of the rest of the website. This meant accessing the same library of UI elements that we created for the website. Even though the idea was to design a page that would look like an extension of the brand, the landing page was supposed to serve a distinct function. Keeping this in mind, I decided to add some variations to the palette.
+                    </p>
+                    <img src="img/single3/2.png" style="width: 100%">
+                    <p><br />
+                        The variations were mainly aimed at making the key components on the landing page pop out a little. When I started designing the landing page, I had this preconception in my mind that the page should be as concise and minimal as possible. Landing Pages have a primary goal to convert traffic into a lead, and so I wanted to optimize it to make it easier for the users to take necessary action. This meant clearly defining the benefits of the product that is being sold, telling the users what they would get, and giving them a CTA button to get it. I designed elements that supported these ideas.
+                    </p>
+                    <img src="img/single3/3.png" style="width: 100%">
+                    <p>
+                        <br/>
+                    </p>
+                    <img src="img/single3/4.png" style="width: 100%">
+                    <p><br/>
+                        While I was trying to come up with ways to make the content look more appealing while keeping it pertinent, I was given a document with use cases that I had to go through to understand the content that was supposed to live on the landing page. In the process of trying to design a landing page by following the generic principles, I forgot about the data research firm principles. There was a lot of data that they wanted to share with the users. While I did not completely agree with having so much information on the landing page, I discerned that it made more sense for the users to see the actual Models and Charts that they would be getting access to. The target user base for the products ETR was selling was unlike any other ecommerce company. Looking at familiar terms in the research field and knowing exactly what information they’d be getting access to, would encourage user engagement.
+                    </p>
+                    <p>
+                        This realization took me back to the ideation process. Having the information on the landing page was essential, but I wanted my design to give the users an option to see only what they were interested in. As I read the use cases I got further knowledge of the different kinds on users that could potentially come to the website and I wanted to create an experience that would consider them all.
+                    </p>
+                    <p>
+                        I broke down the landing page in three different sections -
+                        <ul style="list-style-type:disc;">
+                            <li><strong>WHY?</strong> - Why should you choose us? What sets us apart?</li>
+                            <li><strong>WHO?</strong> - Who we serve? Who are our clients? End users? Target audience?</li>
+                            <li><strong>HOW?</strong> - How do we serve? What do you get ?</li>
+                        </ul>
+                    </p>
+                    <p>
+                        These were the three pages that would cater to all the questions users had. The landing page already had a side navigation that was consistent for the entire website. Adding these tabs in that navigation could get confusing for the users. And so I decided to have a separate navigation within the landing page.
+                    </p>
+                    <img src="img/single3/5.png" style="width: 80% ;margin-left: auto; margin-right: auto; display: block;">
+                    <p style="text-align: center; font-style: italic">
+                        <b>Some of the landing page design options</b>
+                    </p>
+                    <p>
+                        This navigation would be the first thing that the users would see. The users could check the option they were interested in, and take the action accordingly. The consistent CTA that lived on all the pages was ‘Start Free Trial’. This aligned with the company’s need to promote the Free Trial so that users would sign up. Additionally, the top search bar already had the Pricing Button, and the left navigation had all the other options. These elements combined to provide a balance in the visual design of the page and also gave the users all the options they could choose from.
+                    </p>
+                    <p>
+                        The idea behind making the home page scrollable was to not cram all the information in little space, and at the same time also include everything that any type of user would want to know. This was where providing secondary points to the conversion funnel played a pivotal role.
+                    </p>
+                    <p>
+                        <strong>WHY US?</strong>
+                    </p>
+                    <p>
+                        This page was to promote the company. The primary goal was to highlight the key metrics that could stand out from a user’s perspective. I wanted to add animations here to make the numbers pop out more. To convince the development team, I decided to create an animation in Adobe After Effects and realized that I could export the HTML Code for the animation from the software itself. This code was big and needed to be modified, but it helped promote the case for animation. The result was applauded by all.
+                    </p>
+                    <p>
+                        <strong>WHO WE SERVE?</strong>
+                    </p>
+                    <p>
+                        This page was supposed to target the different types of users and how the platform could benefit them based on their roles. The use cases that I read through were supposed to live here. When I started designing for this page, The idea of having an image corresponding to each use case looked like a good idea. The use case names however, made it difficult to find images that relevently corresponded to each of them.
+                    </p>
+                    <img src="img/single3/6.png" style="width: 100%">
+                    <p>
+                        <br/>
+                    </p>
+                    <img src="img/single3/7.png" style="width: 100%">
+                    <p><br />
+                        The idea of having background images as opposed to smaller specific images was an option I had been contemplating. Since there were no specific images that could relate directly to the content on display, I decided to take a different approach and use images that would tell more about the company culture. This meant using desk images, images with people, pictures of the office, etc.
+                    </p>
+                    <p>
+                        Once this was finalized, I had to think of a way to include the content for each of the use cases in one page. There was A LOT of content, and then there were Power BI Models corresponding to the content provided. I wanted to think of a way to give the users the power to view only what they were interested in, instead of having everything cluttered up there. The content of ‘How It Works’ could be populated based on the use case selected. This meant I’d have to connect the two pages.
+                    </p>
+                    <img src="img/single3/8.png" style="width: 100%">
+                    <p><br />
+                        <strong>HOW WE SERVE?</strong>
+                    </p>
+                    <p>
+                        This page essentially consisted of the different types of research deliverables that users would get access to, if they signed up for the service. When I started designing this page, it was just a lot of data and images that looked like an essay no one would ever read. A lot of research went into creating a more interactive and welcoming page.
+                    </p>
+                    <p>
+                        <strong>The more you keep things hidden, the more users want to know about them.</strong>
+                    </p>
+                    <p>
+                        Keeping this notion in  mind, I designed a page where the users could see an icon that they’d want to click on to reveal the Chart relevant to that particular list item. These icons would change color on hover, which would make the users WANT to click them. The solution was to have everything on display, and yet have a surprise element. The Power BI Models that appeared when a particular item was selected acted like the surprise element here.
+                    </p>
+                    <p>
+                        This page was supposed to have pre-populated content based on the tab selected in the previous page (Who We Serve). However, if a user lands directly on this page through the Landing Page navigation, there needed to be a provision for the user to change the use case there itself. For this purpose, a drop-down was introduced in the ‘How We Serve’ page.
+                    </p>
+                    <img src="img/single3/9.png" style="width: 100%">
+                    <p><br />
+                        After the designs were ready, the content copy was to be put in. Before handing out the designs to the dev team, I had to make sure that the design was positioned well enough to accomodate all the content. The content was shared with me in the form of a google document with 25 pages. I had to decide what all I wanted to use and get it approved further. This meant collaborating with the Marketing Lead and finalizing the relevant reduced copy. The entire process, right from the initial design iterations to the final high-fidelity wireframes, took about 3 weeks time. The complete look with all the design artboards that I iterated over looked something like this.
+                    </p>
+                    <img src="img/single3/10.png" style="width: 100%">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 col-md-12 section-heading probootstrap-animate">
+                <h2>Responsive Design</h2>
+                <div class="col-md-12">
+                    <p>
+                        As mentioned in the previous case study, the website was mainly designed for desktop use but was made responsive to ensure consistent look on mobile(and other devices). While the designs for the rest of the website were mocked up on mobile too, the time constraints did not leave enough time to mock up the landing page on mobile. Hence, I worked closely with the front-end developer responsible for building the landing page to create an intuitive look of the landing page on mobile and other tablet.
+                    </p>
+                    <img src="img/single3/Responsive.gif" style="width: 100%">
+                    <p><br />
+                        If you can notice here, the main navigation of the website gets hidden under the hamburger icon. There was a little resistance towards hiding the navigation too. However, since the design was not mobile specific, the aim was just to design for web and apply generic principles to make it responsive. For the navigation within the landing page though, the design remained consistent in mobile view as well. The practice we followed for mobile view was thus what we call a combo navigation - some of the main navigation links were visible while the others were hidden. This was based on the research <a href="https://www.nngroup.com/articles/hamburger-menus/" style="color: #82BC4A;">report</a> regarding the effects on usability of different kinds of navigation published by the NNGROUP.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 col-md-12 section-heading probootstrap-animate">
+                <h2>Retrospective</h2>
+                <div class="col-md-12">
+                    <p>
+                        Once the website was launched, the analytics synced with the site were monitored closely for the initial few weeks. The landing page usually has defined primary goals.
+                        <ul style="list-style-type:decimal;">
+                            <li>
+                                Provide relevant information that the targeted visitors will find very useful for what they need.
+                            </li>
+                            <li>
+                                Possess the ability of effectively selling the product or service that the company is promoting.
+                            </li>
+                        </ul>
+                    </p>
+                    <p>
+                        With reference to the first goal, the metrics suggested that the details were being conveyed effectively. When the user behaviour flow was observed, we noticed that a lot of users, in spite of landing on different pages that the ads were targeted towards, ended up coming back to the landing page. This suggested that they wanted to know more, dig deeper, and get all the relevant information of what the service was about.
+                    </p>
+                    <img src="img/single3/11.png" style="width: 80%;margin-left: auto; margin-right: auto; display: block;">
+                    <p style="text-align: center; font-style: italic">
+                        <b>Irrespective of the page they landed on, users were inclined to go to the landing page</b>
+                    </p>
+                    <img src="img/single3/12.png" style="width: 80%;margin-left: auto; margin-right: auto; display: block;">
+                    <p>
+                        <br />
+                    </p>
+                    <img src="img/single3/13.png" style="width: 80%;margin-left: auto; margin-right: auto; display: block;">
+                    <p style="text-align: center; font-style: italic">
+                        <b>Even if the first/second interaction was a specific product page, users tended to go back to the landing page which could only be to get detailed information of the company and services they provide</b>
+                    </p>
+                    <p>
+                        The second goal that the landing page is supposed to accomplish though, was not fulfilled. There had been no conversions on the website. This issue had to be recognized and resolved. I did some analysis as to what could’ve been the problem. A derivation we got from the Retrospective of the ETR+ website case study was that 70-80% of the traffic was accessing the website on mobile. This made me analyze the mobile view of the landing page.
+                    </p>
+                    <p>
+                        The scrolling time increased in mobile since everything was pushed down, including the CTA Button. The buttons on the landing page navigation were recognized by hovering over which basically changed its color. In mobile, however, there is no hover option and this made it difficult to recognize the buttons.
+                    </p>
+                    <p><br />
+                        <video width="50%" height="240" controls style="margin-left: auto; margin-right: auto; display: block; width: 50%">
+                            <source src="img/single3/vid1.mov" type="video/mp4">
+                        </video>
+                    </p>
+                    <p>
+                        For the ‘Who We Serve’ page, there was no way to understand the tab which was selected, since nothing was highlighted, and it seemed difficult to map the heading of the use case to the Tools button. The same issue persisted in the ‘How It Works’ page as well. The tab selected was supposed to populate the image within the screen and this could not be understood on mobile.
+                        <br />
+                    </p>
+                    <div class="col-md-6">
+                        <video width="100%" height="240" controls>
+                            <source src="img/single3/vid2.mov" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="col-md-6">
+                        <video width="100%" height="240" controls>
+                            <source src="img/single3/vid3.mov" type="video/mp4">
+                        </video>
+                    </div>
+                    <p><br />
+                        One other thing that I noticed was that once the site went live, there were very few people going to the Marketplace - which was supposed to be the key selling place of the website. Even though the primary goal was to get as more subscriptions, the new element that the company’s public-facing interface introduced was the flexibility to purchase individual reports from the Marketplace. This was a key concern that a lot of department heads were having.
+                    </p>
+                    <p>
+                        The landing page did not promote anything other than the Free Trial. There were three CTA Buttons that were placed for conversions, and all three were pointing towards the Free Trial. There was ample opportunity to promote the Marketplace and even the Pricing Page on the Landing Page.
+                    </p>
+                    <p>
+                        Even though the purpose of getting relevant information to the user was satisfied, there was still a lot of work to be done in order to optimize the landing page to drive conversions. For me, it was an immersive learning experience.
+                    </p>
+                    <p><br />
+                        <video width="50%" height="240" controls style="margin-left: auto; margin-right: auto; display: block; width: 60%">
+                            <source src="img/single3/LandingPage.mp4" type="video/mp4">
+                        </video>
+                        <p style="text-align: center; font-style: italic">
+                            <b>The entire landing page flow</b>
+                        </p>
+                    </p>
+                    <p>
+                        You can checkout the website <a href="https://etr.plus/" style="color: #82BC4A">here</a>!
+                    </p>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-12 col-md-12 section-heading probootstrap-animate">
+            <div class="col-md-2">
+                <a href="new_single2.html" style="color: #81889B">Previous work</a>
+            </div>
+            <div class="col-md-8"></div>
+            <div class="col-md-2">
+                <a href="" style="color: #81889B">Next work</a>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+
+
+
+
+<!--Footer-->
+<!-- START: section -->
+<section class="probootstrap-section" style="padding-bottom: 0; z-index: 3">
+    <div class="container">
+        <div class="row text-center probootstrap-animate">
+            <a href="https://www.facebook.com/malvi.shah.33"><i class="fa fa-facebook" style="margin-top: 0; color: #149091"></i></a>
+            <a href="https://www.instagram.com/malvishah05/"><i class="fa fa-instagram" style="margin-top: 0; color: #149091"></i></a>
+            <a href="https://www.linkedin.com/in/malvi-shah/"><i class="fa fa-linkedin" style="margin-top: 0; color: #149091"></i></a>
+            <a href="https://dribbble.com/mshah"><i class="fa fa-dribbble" style="margin-top: 0; color: #149091"></i></a>
+            <a href="https://github.com/malvare"><i class="fa fa-github" style="margin-top: 0; color: #149091"></i></a>
+            <a href="https://medium.com/@malvishah.94"><i class="fa fa-medium" style="margin-top: 0; color: #149091"></i></a>
+            <br>
+            <a href="#" class="js-backtotop probootstrap-copyright" style="margin-top: 0; color: #149091">Back to top</a>
+            <div class="probootstrap-copyright">© Copyright 2018. All Rights Reserved.</div>
+        </div>
+    </div>
+</section>
+<!-- END: section -->
+
+<!--Scripts-->
+
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.easing.min.js"></script>
+<script src="js/modernizr.custom.42534.js" type="text/javascript"></script>
+<script src="js/jquery.waitforimages.js" type="text/javascript"></script>
+<script src="js/typed.js" type="text/javascript"></script>
+<script src="js/masonry.pkgd.min.js" type="text/javascript"></script>
+<script src="js/imagesloaded.pkgd.min.js" type="text/javascript"></script>
+<script src="js/jquery.jkit.1.2.16.min.js"></script>
+
+<script src="js/script.js" type="text/javascript"></script>
+<script src="js/transition.js"></script>
+<script src="js/zoom-vanilla.min.js"></script>
+
+<script>
+    $('#button, #buttons').on('click', function () {
+        $(".opacity-nav").fadeToggle("slow", "linear");
+        // Animation complete.
+    });
+</script>
+<script>
+    $('img').attr('data-action','zoom');
+</script>
+
 </body>
 </html>
