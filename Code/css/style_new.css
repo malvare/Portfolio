@@ -201,6 +201,30 @@ CONTENT
    background-color: #009092;
 }
 
+.overlay-effect1 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 64px;
+    right: 64px;
+    opacity: 0.5;
+    transition: .5s ease;
+    background-color: #292882;
+    overflow:hidden;
+}
+
+.overlay-effect2 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 64px;
+    right: 64px;
+    opacity: 0.5;
+    transition: .5s ease;
+    background-color: #009092;
+    overflow:hidden;
+}
+
 .blue-layer {
     position: absolute;
     opacity: 0.6;
