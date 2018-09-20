@@ -780,7 +780,10 @@ MY PROJECTS GRID
    margin: 0 auto;
     margin-top: 9%;
 }
-.fancy-card.three{
+.fancy-card.three img{
+  display: block;
+    margin: 0 auto;
+    margin-top: 32%;
 }
 
 .fancy-card .bg-overlay{
