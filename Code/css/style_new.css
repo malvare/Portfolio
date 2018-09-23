@@ -993,7 +993,9 @@ h3 {
 
 ol, p, ul {
     margin-bottom: 1.3em;
-    font-size: 1.05em;
+    font-size: 1.2em;
+    line-height: 1.65em;
+    text-align: justify;
 }
 
 a {
@@ -2415,7 +2417,7 @@ a:active, a:focus, a:hover {
 
 @media screen and (max-width: 1720px) and (min-width: 1500px) {
      .probootstrap-intro {
-        height: 900px;
+        height: 820px;
     }
 
 .probootstrap-section .box {

@@ -27,6 +27,10 @@
     <![endif]-->
     <style>
 
+        .image2{
+            display: none;
+        }
+
         .probootstrap-main-nav li a {
             color: #292882;
         }
@@ -55,6 +59,23 @@
             padding: 0px;
         }
 
+         @media screen and (max-width: 320px) {
+            
+         }
+
+        @media screen and (max-width: 374px) and (min-width: 321px){
+            .probootstrap-text-overlay{
+                top: -4px;
+                font-size: xx-small;
+            }
+         }
+
+         @media screen and (max-width: 400px) and (min-width: 375px){
+            .probootstrap-text-overlay{
+                font-size: x-small;
+            }
+         }
+
         @media screen and (max-width: 768px) {
             .probootstrap-main-nav li a:hover, .probootstrap-main-nav li.active a, .probootstrap-main-nav li.active a:hover {
                 border-bottom: 2px solid #ffffff;
@@ -62,6 +83,119 @@
 
             .probootstrap-main-nav li a {
                 color: #fff;
+            }
+
+        }
+
+         @media screen and (max-width: 500px) {
+
+            .image1{
+                display: none;
+            }
+
+
+             .image2{
+                display: block;
+                width: 70%;
+                position: relative;
+                margin-left: 10%;
+                margin-right: 20%;
+                }
+         }
+
+        @media screen and (max-width: 1199px) and (min-width: 992px) {
+            .overlay-effect1{
+                left:54px;
+                right:54px;
+            }
+
+            .overlay-effect2{
+                left:53px;
+                right:54px;
+            }
+        }
+
+        @media screen and (max-width: 991px) and (min-width: 730px) {
+            .overlay-effect1{
+                left:74px;
+                right:73px;
+            }
+
+            .overlay-effect2{
+                left:74px;
+                right:73px;
+            }
+        }
+
+@media screen and (max-width: 729px) and (min-width: 531px){
+        .overlay-effect1{
+                left:48px;
+                right:47px;
+            }
+
+            .overlay-effect2{
+                left:48px;
+                right:47px;
+            }
+        }
+
+@media screen and (max-width: 530px) and (min-width: 501px){
+        .overlay-effect1{
+                left:52px;
+                right:51px;
+            }
+
+            .overlay-effect2{
+                left:52px;
+                right:51px;
+            }
+        }
+
+@media screen and (max-width: 500px) and (min-width: 376px){
+        .overlay-effect1{
+                left:40px;
+                right:40px;
+            }
+
+            .overlay-effect2{
+                left:40px;
+                right:40px;
+            }
+        }
+
+@media screen and (max-width: 375px) and (min-width: 361px){
+        .overlay-effect1{
+                left:36px;
+                right:36px;
+            }
+
+            .overlay-effect2{
+                left:36px;
+                right:36px;
+            }
+        }
+
+@media screen and (max-width: 360px) and (min-width: 321px){
+        .overlay-effect1{
+                left:35px;
+                right:34px;
+            }
+
+            .overlay-effect2{
+                left:35px;
+                right:34px;
+            }
+        }
+
+@media screen and (max-width: 320px){
+        .overlay-effect1{
+                left:31px;
+                right:30px;
+            }
+
+            .overlay-effect2{
+                left:31px;
+                right:30px;
             }
         }
 
@@ -143,7 +277,8 @@
         </div>
         <div class="row mb50">
             <div class="col-md-12">
-                <p><img src="img/about%20me/am.png"  alt="What I can do" class="img-responsive"></p>
+                <p class="image1"><img src="img/about%20me/am.png"  alt="What I can do" class="img-responsive"></p>
+                <p class="image2"><img src="img/about%20me/am1.png"  alt="What I can do"></p>
             </div>
         </div>
         <div class="row">
@@ -193,7 +328,7 @@
             </div>
             <div class="col-md-4 col-sm-6">
                 <a class="probootstrap-hover-overlay">
-                    <img src="img/logo/learnnew.jpg" alt="Free Bootstrap Template by uicookies.com" class="img-responsive">
+                    <img src="img/logo/learnnew copy.jpg" alt="Free Bootstrap Template by uicookies.com" class="img-responsive">
                     <div class="probootstrap-text-overlay">
                         <!-- <img src="img/logo/learn.png" style="width: 23%; height:20%; margin-left: 40%; margin-top: 20%"> -->
                         <h3>Conceptual Animation</h3>
