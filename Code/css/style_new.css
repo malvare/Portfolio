@@ -2379,7 +2379,7 @@ a:active, a:focus, a:hover {
 
 @media screen and (max-width: 1250px) and (min-width: 1025px) {
      .probootstrap-intro {
-        height: 900px;
+        height: 796px;
     }
 
 .probootstrap-section .box {
@@ -2398,7 +2398,7 @@ a:active, a:focus, a:hover {
 
 @media screen and (max-width: 1500px) and (min-width: 1250px) {
      .probootstrap-intro {
-        height: 900px;
+        height: 760px;
     }
 
 .probootstrap-section .box {
@@ -2417,7 +2417,7 @@ a:active, a:focus, a:hover {
 
 @media screen and (max-width: 1720px) and (min-width: 1500px) {
      .probootstrap-intro {
-        height: 820px;
+        height: 790px;
     }
 
 .probootstrap-section .box {
@@ -3206,6 +3206,7 @@ i2 {
 i1 {
   height: 30px;
   width: 30px;
+  margin-bottom: 10px;
   margin-top: 43%;
   border: solid white;
   border-width: 0 3px 3px 0;
