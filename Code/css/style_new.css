@@ -369,7 +369,7 @@ CONTENT
 
 
 .typed-cursor {
-    opacity: 1;
+    opacity: 0;
     font-weight: 900;
     -webkit-animation: blink 0.7s infinite;
     -moz-animation: blink 0.7s infinite;
@@ -3131,7 +3131,7 @@ canvas {
     }
 }
 .typed-cursor {
-    animation: blink 0.7s infinite;
+  animation: blink 0.7s 8;
 }
 
 .typewrite2 {
@@ -3242,7 +3242,7 @@ i1 {
     margin-left: auto;
     box-shadow: 0 0 10px #149091;
     color: white;
-    position: relative;
+    position: absolute;
     z-index: 15;
     background: linear-gradient(to right, #149091, #1919E6);
     /*background: #1919E6;*/
