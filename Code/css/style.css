@@ -1701,4 +1701,17 @@ MY PROJECTS GRID
 }
 
 /* ---- reset ---- */
-
+.testimonial_subtitle{
+    color: #0aaa7a;
+    font-size: 12px;
+}
+.testimonial_btn{
+    background-color: #373d4b !important;
+    color: #fff !important;
+}
+.seprator {
+    height: 2px;
+    width: 56px;
+    background-color: #0aaa7a;
+    margin: 7px 0 10px 0;
+}
