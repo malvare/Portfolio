@@ -10,7 +10,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="thomsoon.com">
     <link rel="icon" type="image/png" href="img/icon.png"/>
-
     <!--Style-->
 
     <!--<link rel="stylesheet" href="css/reset.css">-->
@@ -61,8 +60,44 @@
             padding: 0px;
         }
 
-         @media screen and (max-width: 320px) {
-            
+        @media screen and (max-width: 839px) and (min-width: 500px){
+            .item .row {
+                height: 700px;
+            }
+
+            .item active .row{
+                height: 700px;
+            }
+         }
+
+        @media screen and (max-width: 1100px) and (min-width: 840px){
+            .item .row {
+                height: 700px;
+            }
+
+            .item active .row{
+                height: 700px;
+            }
+         }
+
+         @media screen and (max-width: 1330px) and (min-width: 1100px){
+            .item .row {
+                height: 600px;
+            }
+
+            .item active .row{
+                height: 600px;
+            }
+         }
+
+         @media screen and (max-width: 2500px) and (min-width: 1330px){
+            .item .row {
+                height: 550px;
+            }
+
+            .item active .row{
+                height: 550px;
+            }
          }
 
         @media screen and (max-width: 374px) and (min-width: 321px){
@@ -230,6 +265,7 @@
 </header>
 <!-- END: header -->
 <section id="next-section" class="probootstrap-section" style="padding-top: 0; padding-bottom: 0">
+
     <div class="container">
         <div class="row">
             <div class="col-lg-12 col-md-12 mb70 section-heading probootstrap-animate">
@@ -269,6 +305,7 @@
                 </p>
             </div>
         </div>
+
         <div class="row">
             <div class="col-lg-12 col-md-12 mb70 section-heading probootstrap-animate">
                 <h2>What Sets me Apart</h2>
@@ -286,22 +323,14 @@
                 <p class="image2"><img src="img/about%20me/am1.png"  alt="What I can do" data-action="zoom"></p>
             </div>
         </div>
-        <div class="row">
-            <div class="col-lg-12 col-md-12 mb70 section-heading probootstrap-animate">
-                <h2>My Hobbies</h2>
-                <p> When I am not working, I am usually found with my head behind a book, either reading or writing tales. I love travelling, meeting new people, and listening to their stories. The artistic soul in me has helped me discover a newly found love for photography. I am not a morning person till I've had a cup of tea. I love playing tennis and volleyball, and have often been told that I have this remarkable energy when I am on the field. <br /> <br /> If there is on thing I strongly believe in, it's this.<br /> If you can be anything in life, be passionate. And once you find that passion, be brave. <br /> <br />
-
-                Oh and also,<b> I love wearing hats!</b> </p>
-            </div>
-        </div>
     </div>
 </section>
 
-<section class="probootstrap-section" style="padding-top: 0">
+        <section class="probootstrap-section" style="padding-top: 0; margin-bottom: -135px">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 col-md-12 mb70 section-heading probootstrap-animate">
-                <h2>Testimonial</h2>
+                <h2>What People Are Saying...</h2>
                 <div class="seprator"></div>
                 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
                     <!-- Wrapper for slides -->
@@ -309,16 +338,16 @@
                         <div class="item active">
                             <div class="row" style="padding: 20px">
                                 <button style="border: none;"><i class="fa fa-quote-left testimonial_fa" aria-hidden="true"></i></button>
-                                <p class="testimonial_para">It was a pleasure working with Malvi during her internship at Aptiviti. She has an amazing work ethic. She was always willing to take on any task even if it was outside her job description. I worked closely with her designing the new ETR+ https://etr.plus. She put in countless hours and worked a lot of long nights with the engineering team. I really enjoyed collaborating with Malvi on new design ideas. She did an amazing job on the ETR+ Homepage along with other numerous tasks that she was assigned. Malvi is very good at taking business requirements and producing designs that complement our brand.
+                                <p class="testimonial_para" style="color: #7E8890; font-family: serif; font-style: italic;">It was a pleasure working with Malvi during her internship at Aptiviti. She has an amazing work ethic. She was always willing to take on any task even if it was outside her job description. I worked closely with her designing the new ETR+ https://etr.plus. She put in countless hours and worked a lot of long nights with the engineering team. I really enjoyed collaborating with Malvi on new design ideas. She did an amazing job on the ETR+ Homepage along with other numerous tasks that she was assigned. Malvi is very good at taking business requirements and producing designs that complement our brand.
                                     Malvi's drive is what sets her apart from the rest. After she was done working each day, she would continue to advance her skillset on her own time. I have no doubt that she is destined for great things.</p><br>
                                 <div class="row">
                                     <div class="col-sm-2">
-                                        <img src="http://demos1.showcasedemos.in/jntuicem2017/html/v1/assets/images/jack.jpg" class="img-responsive" style="width: 80px">
+                                        <img src="img/about%20me/ralph.png"  class="img-responsive" style="width: 80px">
                                     </div>
                                     <div class="col-sm-10">
                                         <h4><strong>Ralph Terysen</strong></h4>
                                         <p class="testimonial_subtitle"><span>Vice President of Engineering</span><br>
-                                            <span>Aptiviti</span>
+                                            <span>ETR, an aptiviti</span>
                                         </p>
                                     </div>
                                 </div>
@@ -327,15 +356,15 @@
                         <div class="item">
                             <div class="row" style="padding: 20px">
                                 <button style="border: none;"><i class="fa fa-quote-left testimonial_fa" aria-hidden="true"></i></button>
-                                <p class="testimonial_para">Malvi worked on a team of masters students who redesigned one of my client's products. The team spent 3 months working through a full design cycle of research, design, prototyping, and testing. The client loved the work so much that they implemented some of the suggestions mid-project! Malvi stood out to me as a strong communicator and conscientious practitioner of user-centered design, and I would gladly work with her in the future.</p><br>
+                                <p class="testimonial_para" style="color: #7E8890; font-family: serif; font-style: italic;">Malvi worked on a team of masters students who redesigned one of my client's products. The team spent 3 months working through a full design cycle of research, design, prototyping, and testing. The client loved the work so much that they implemented some of the suggestions mid-project! Malvi stood out to me as a strong communicator and conscientious practitioner of user-centered design, and I would gladly work with her in the future.</p><br>
                                 <div class="row">
                                     <div class="col-sm-2">
-                                        <img src="http://demos1.showcasedemos.in/jntuicem2017/html/v1/assets/images/kiara.jpg" class="img-responsive" style="width: 80px">
+                                        <img src="img/about%20me/ben.png" class="img-responsive" style="width: 80px">
                                     </div>
                                     <div class="col-sm-10">
                                         <h4><strong>Ben Bakelaar</strong></h4>
-                                        <p class="testimonial_subtitle"><span>Chlinical Chemistry Technologist</span><br>
-                                            <span>Officeal All Star Cafe</span>
+                                        <p class="testimonial_subtitle"><span>Founder and Lead Designer</span><br>
+                                            <span>Human Experience Systems, L.L.C.</span>
                                         </p>
                                     </div>
                                 </div>
@@ -350,6 +379,20 @@
                     <a class="right fa fa-chevron-right btn btn-default testimonial_btn" href="#carousel-example-generic"
                        data-slide="next"></a>
                 </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="next-section" class="probootstrap-section" style="padding-top: 0; padding-bottom: 0">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 mb70 section-heading probootstrap-animate">
+                <h2>My Hobbies</h2>
+                <p> When I am not working, I am usually found with my head behind a book, either reading or writing tales. I love travelling, meeting new people, and listening to their stories. The artistic soul in me has helped me discover a newly found love for photography. I am not a morning person till I've had a cup of tea. I love playing tennis and volleyball, and have often been told that I have this remarkable energy when I am on the field. <br /> <br /> If there is on thing I strongly believe in, it's this.<br /> If you can be anything in life, be passionate. And once you find that passion, be brave. <br /> <br />
+
+                Oh and also,<b> I love wearing hats!</b> </p>
             </div>
         </div>
     </div>
