@@ -20,6 +20,27 @@
     <script src="js/vendor/html5shiv.min.js"></script>
     <script src="js/vendor/respond.min.js"></script>
     <![endif]-->
+
+    <style>
+
+    @media screen and (min-width: 300px)  and (max-width: 659px) {
+            #fact{
+                font-size: x-small;
+            }
+        }
+         @media screen and (min-width: 660px)  and (max-width: 709px) {
+            #fact{
+                font-size: small;
+            }
+    }
+
+        @media screen and (min-width: 710px)  and (max-width: 768px) {
+            #fact{
+                font-size: medium;
+            }
+    }
+
+    </style>
 </head>
 <body>
 
@@ -56,7 +77,7 @@
     </div>
 
     <a class="probootstrap-scroll-down js-next" href="#next-section" style="z-index: 3;">
-        <i1 class="down"></i1>
+        <div class="down bounce"> <img src="img/logo/downarrow.png" style="margin-left: -18px"> </div>
     </a>
     <!-- scripts -->
     <script src="js/particles.js"></script>
